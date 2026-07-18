@@ -5,6 +5,7 @@ import Lyrics from './pages/Lyrics';
 import Song from './pages/Song';
 import Card from './pages/Card';
 import Summon from './pages/Summon';
+import Tinder from './pages/Tinder';
 import Layout from './components/Layout';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/texty/:id" element={<Song />} />
           <Route path="/vyvolat" element={<Summon />} />
         </Route>
+        <Route path="/seznamka" element={<Tinder />} />
       </Routes>
     </HashRouter>
   );

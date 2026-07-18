@@ -1,0 +1,4 @@
+{
+  "_comment": "Pravděpodobnost osudového setkání při posunutí karty doprava. 0.05 = 5% šance.",
+  "matchProbability": 0.05
+}
