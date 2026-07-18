@@ -103,8 +103,9 @@ Song: `id`, `title`, `lyrics` (plain text, `\n` line breaks, blank line = stanza
 - Keep this file and the Commands section current when decisions change.
 
 ## Commands
-(Fill in at Layer 0 and keep current.)
-- `npm run dev` / `npm run build` / `npm run preview`
+- `npm run dev` — start dev server locally
+- `npm run build` — build for production into `/dist`
+- `npm run preview` — preview the production build locally
 
 ## Definition of done, always
 Builds cleanly, works at mobile width, UI copy in Czech, the human has committed,

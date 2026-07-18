@@ -1,4 +1,7 @@
-# Sons of Sawdust — web
+# Sons of Sawdust - Web
+The official fan site of Sons of Sawdust.
 
-Official fan site: "Sawdust Card Library" + lyrics (Holy Texts).
-Start here: PRODUCTION_PLAN.md (layered build order) and CLAUDE.md (project law).
+## Dev Commands
+- `npm run dev` — start dev server
+- `npm run build` — build for production
+- `npm run preview` — preview production build locally
