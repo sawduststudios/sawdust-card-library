@@ -1,4 +1,5 @@
 import { useSearchParams, Link } from 'react-router-dom';
+import WiggleLink from '../components/WiggleLink';
 import data from '../../data/cards.json';
 import { filterAndSortCards } from '../utils/filterCards';
 
@@ -90,6 +91,41 @@ export default function Library() {
     <div style={{ textAlign: 'left', padding: '1rem', backgroundColor: '#FFFFCC', border: '5px ridge #00FF00' }}>
       <h2 className="blink" style={{ borderBottom: '4px double #FF0000', paddingBottom: '0.5rem', marginBottom: '1rem', textAlign: 'center' }}>KARTOTÉKA SVĚTLA</h2>
       
+      {/* Sub-features accessible from library */}
+      <div style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center', marginBottom: '2.5rem', marginTop: '1rem', flexWrap: 'wrap' }}>
+        <WiggleLink to="/vyvolat" baseRot={-2} style={{ 
+          display: 'inline-block',
+          padding: '0.5rem 1rem', 
+          backgroundColor: '#FF00FF', 
+          border: '4px dotted #FFFF00', 
+          textDecoration: 'none', 
+          color: '#000',
+          fontWeight: 'bold',
+          fontSize: '1.2rem',
+          boxShadow: '4px 4px 0px #000',
+          maxWidth: '90vw',
+          boxSizing: 'border-box'
+        }}>
+          🎲 Vyvolat kartu
+        </WiggleLink>
+
+        <WiggleLink to="/seznamka" baseRot={2} style={{ 
+          display: 'inline-block',
+          padding: '0.6rem 1rem', 
+          backgroundColor: '#000', 
+          border: '3px solid #00FF00', 
+          textDecoration: 'underline wavy #FF0000', 
+          color: '#00FF00',
+          fontWeight: 'bold',
+          fontSize: '1.2rem',
+          textShadow: '1px 1px #FF0000',
+          maxWidth: '90vw',
+          boxSizing: 'border-box'
+        }}>
+          🧪 Zakázané zboží
+        </WiggleLink>
+      </div>
+
       {/* Search & Filters */}
       <div style={{ backgroundColor: '#C0C0C0', padding: '1rem', border: '4px outset #FFFFFF', marginBottom: '1.5rem', color: '#000000', fontWeight: 'bold' }}>
         <input 
