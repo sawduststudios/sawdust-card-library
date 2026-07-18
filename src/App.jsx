@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Landing from './pages/Landing';
 import Library from './pages/Library';
 import Lyrics from './pages/Lyrics';
+import Song from './pages/Song';
 import Layout from './components/Layout';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Route element={<Layout />}>
           <Route path="/kartoteka" element={<Library />} />
           <Route path="/texty" element={<Lyrics />} />
+          <Route path="/texty/:id" element={<Song />} />
         </Route>
       </Routes>
     </BrowserRouter>

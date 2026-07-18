@@ -1,12 +1,16 @@
-{
-  "version": 1,
-  "songs": [
-    {
-      "id": "placeholder-song",
-      "title": "NÁZEV PÍSNĚ (nahraď mě skutečnou písní)",
-      "lyrics": "Sem patří text písně.\nKaždý řádek normálně na nový řádek.\n\nPrázdný řádek odděluje sloky.",
-      "image": null,
-      "tags": []
-    }
-  ]
-}
+[
+  {
+    "id": "hymna-pilin",
+    "title": "Hymna Pilin (Placeholder)",
+    "lyrics": "Ó mocný tesaři,\ntvá pilina září,\n\nkdyž padá k zemi,\njsme z toho celí němí.",
+    "image": null,
+    "tags": []
+  },
+  {
+    "id": "simon-mem",
+    "title": "Nejlepší song",
+    "lyrics": "Šímon Crowe používá mikrotransakce.",
+    "image": null,
+    "tags": []
+  }
+]
