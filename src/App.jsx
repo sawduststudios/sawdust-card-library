@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Landing from './pages/Landing';
 import Library from './pages/Library';
 import Lyrics from './pages/Lyrics';
@@ -8,7 +8,7 @@ import Layout from './components/Layout';
 
 function App() {
   return (
-    <BrowserRouter basename="/sawdust-card-library">
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route element={<Layout />}>
@@ -18,7 +18,7 @@ function App() {
           <Route path="/texty/:id" element={<Song />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
