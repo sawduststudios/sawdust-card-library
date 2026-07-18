@@ -5,14 +5,18 @@ function normalizeString(str) {
 
 export function filterAndSortCards(cards, searchParams) {
   const q = searchParams.get('q') || '';
-  const filterClass = searchParams.get('class') || '';
-  const filterRarity = searchParams.get('rarity') || '';
+  const classesRaw = searchParams.get('class');
+  const raritiesRaw = searchParams.get('rarity');
+  
+  const selectedClasses = classesRaw ? classesRaw.split(',') : [];
+  const selectedRarities = raritiesRaw ? raritiesRaw.split(',') : [];
+
   const sort = searchParams.get('sort') || 'name';
   const dir = searchParams.get('dir') || 'asc';
 
   const filteredCards = cards.filter(card => {
-    if (filterClass && card.class !== filterClass) return false;
-    if (filterRarity && card.rarity !== filterRarity) return false;
+    if (selectedClasses.length > 0 && !selectedClasses.includes(card.class)) return false;
+    if (selectedRarities.length > 0 && !selectedRarities.includes(card.rarity)) return false;
     
     if (q) {
       const query = normalizeString(q);

@@ -13,21 +13,56 @@ const RARITY_COLORS = {
 export default function Library() {
   const [searchParams, setSearchParams] = useSearchParams();
 
-  const filterClass = searchParams.get('class') || '';
-  const filterRarity = searchParams.get('rarity') || '';
+  const classesRaw = searchParams.get('class');
+  const raritiesRaw = searchParams.get('rarity');
+  const selectedClasses = classesRaw ? classesRaw.split(',') : [];
+  const selectedRarities = raritiesRaw ? raritiesRaw.split(',') : [];
+
   const sort = searchParams.get('sort') || 'name';
   const dir = searchParams.get('dir') || 'asc';
   const q = searchParams.get('q') || '';
 
-  const updateParams = (key, value) => {
+  const updateSortParam = (key, value) => {
     const newParams = new URLSearchParams(searchParams);
-    if (value) {
-      newParams.set(key, value);
+    newParams.set(key, value);
+    setSearchParams(newParams);
+  };
+
+  const updateSearchQuery = (value) => {
+    const newParams = new URLSearchParams(searchParams);
+    if (value) newParams.set('q', value);
+    else newParams.delete('q');
+    setSearchParams(newParams);
+  };
+
+  const toggleArrayParam = (key, value) => {
+    const newParams = new URLSearchParams(searchParams);
+    const currentRaw = newParams.get(key);
+    let current = currentRaw ? currentRaw.split(',') : [];
+    
+    if (current.includes(value)) {
+      current = current.filter(c => c !== value);
+    } else {
+      current.push(value);
+    }
+    
+    if (current.length > 0) {
+      newParams.set(key, current.join(','));
     } else {
       newParams.delete(key);
     }
     setSearchParams(newParams);
   };
+
+  const clearAllFilters = () => {
+    const newParams = new URLSearchParams(searchParams);
+    newParams.delete('class');
+    newParams.delete('rarity');
+    newParams.delete('q');
+    setSearchParams(newParams);
+  };
+
+  const hasActiveFilters = selectedClasses.length > 0 || selectedRarities.length > 0 || q;
 
   const classes = [...new Set(data.cards.map(c => c.class))].filter(Boolean).sort();
   const rarities = [...new Set(data.cards.map(c => c.rarity))].filter(Boolean).sort();
@@ -61,27 +96,33 @@ export default function Library() {
           type="text" 
           placeholder="Hledej v archivech (jméno, pravidla, flavor)..." 
           value={q}
-          onChange={(e) => updateParams('q', e.target.value)}
+          onChange={(e) => updateSearchQuery(e.target.value)}
           style={{ width: '100%', padding: '0.75rem', fontSize: '1rem', borderRadius: '4px', border: '1px solid #ccc', marginBottom: '1rem', boxSizing: 'border-box' }}
         />
         
-        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', alignItems: 'flex-start' }}>
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1.5rem', alignItems: 'flex-start' }}>
           <div>
             <div style={{ fontSize: '0.85rem', fontWeight: 'bold', marginBottom: '0.25rem', color: '#555' }}>Třída (Class):</div>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
-              <button 
-                onClick={() => updateParams('class', '')}
-                style={{ padding: '0.3rem 0.6rem', borderRadius: '16px', border: '1px solid #aaa', cursor: 'pointer', backgroundColor: filterClass === '' ? '#333' : '#fff', color: filterClass === '' ? '#fff' : '#333' }}
-              >
-                Vše
-              </button>
               {classes.map(c => (
                 <button 
                   key={c}
-                  onClick={() => updateParams('class', c)}
-                  style={{ padding: '0.3rem 0.6rem', borderRadius: '16px', border: '1px solid #aaa', cursor: 'pointer', backgroundColor: filterClass === c ? '#333' : '#fff', color: filterClass === c ? '#fff' : '#333', textTransform: 'capitalize' }}
+                  onClick={() => toggleArrayParam('class', c)}
+                  style={{ 
+                    padding: '0.3rem 0.6rem', 
+                    borderRadius: '16px', 
+                    border: '1px solid #aaa', 
+                    cursor: 'pointer', 
+                    backgroundColor: selectedClasses.includes(c) ? '#333' : '#fff', 
+                    color: selectedClasses.includes(c) ? '#fff' : '#333', 
+                    textTransform: 'capitalize',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '4px'
+                  }}
                 >
                   {c.replace('-', ' ')}
+                  {selectedClasses.includes(c) && <span style={{ fontSize: '0.8rem', opacity: 0.8 }}>✕</span>}
                 </button>
               ))}
             </div>
@@ -90,19 +131,26 @@ export default function Library() {
           <div>
             <div style={{ fontSize: '0.85rem', fontWeight: 'bold', marginBottom: '0.25rem', color: '#555' }}>Vzácnost:</div>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
-              <button 
-                onClick={() => updateParams('rarity', '')}
-                style={{ padding: '0.3rem 0.6rem', borderRadius: '16px', border: '1px solid #aaa', cursor: 'pointer', backgroundColor: filterRarity === '' ? '#333' : '#fff', color: filterRarity === '' ? '#fff' : '#333' }}
-              >
-                Vše
-              </button>
               {rarities.map(r => (
                 <button 
                   key={r}
-                  onClick={() => updateParams('rarity', r)}
-                  style={{ padding: '0.3rem 0.6rem', borderRadius: '16px', border: '1px solid #aaa', cursor: 'pointer', backgroundColor: filterRarity === r ? RARITY_COLORS[r] || '#ccc' : '#fff', color: filterRarity === r ? '#000' : '#333', fontWeight: filterRarity === r ? 'bold' : 'normal', textTransform: 'capitalize' }}
+                  onClick={() => toggleArrayParam('rarity', r)}
+                  style={{ 
+                    padding: '0.3rem 0.6rem', 
+                    borderRadius: '16px', 
+                    border: '1px solid #aaa', 
+                    cursor: 'pointer', 
+                    backgroundColor: selectedRarities.includes(r) ? RARITY_COLORS[r] || '#ccc' : '#fff', 
+                    color: selectedRarities.includes(r) ? '#000' : '#333', 
+                    fontWeight: selectedRarities.includes(r) ? 'bold' : 'normal', 
+                    textTransform: 'capitalize',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '4px'
+                  }}
                 >
                   {r}
+                  {selectedRarities.includes(r) && <span style={{ fontSize: '0.8rem', opacity: 0.8 }}>✕</span>}
                 </button>
               ))}
             </div>
@@ -112,7 +160,7 @@ export default function Library() {
             <div style={{ fontSize: '0.85rem', fontWeight: 'bold', color: '#555' }}>Řadit podle:</div>
             <select 
               value={sort} 
-              onChange={(e) => updateParams('sort', e.target.value)}
+              onChange={(e) => updateSortParam('sort', e.target.value)}
               style={{ padding: '0.4rem', borderRadius: '4px', border: '1px solid #aaa' }}
             >
               {sortOptions.map(opt => (
@@ -120,7 +168,7 @@ export default function Library() {
               ))}
             </select>
             <button 
-              onClick={() => updateParams('dir', dir === 'asc' ? 'desc' : 'asc')}
+              onClick={() => updateSortParam('dir', dir === 'asc' ? 'desc' : 'asc')}
               style={{ padding: '0.4rem 0.8rem', borderRadius: '4px', border: '1px solid #aaa', cursor: 'pointer', backgroundColor: '#fff' }}
               title={dir === 'asc' ? 'Vzestupně' : 'Sestupně'}
             >
@@ -128,6 +176,17 @@ export default function Library() {
             </button>
           </div>
         </div>
+        
+        {hasActiveFilters && (
+          <div style={{ width: '100%', marginTop: '1rem', borderTop: '1px dashed #ccc', paddingTop: '0.75rem' }}>
+            <button 
+              onClick={clearAllFilters}
+              style={{ padding: '0.3rem 0.8rem', borderRadius: '4px', border: '1px solid #d9534f', cursor: 'pointer', backgroundColor: '#fff', color: '#d9534f', fontSize: '0.85rem' }}
+            >
+              ✖ Vymazat všechny filtry
+            </button>
+          </div>
+        )}
       </div>
 
       <div style={{ marginBottom: '1rem', fontWeight: 'bold', color: '#444' }}>
