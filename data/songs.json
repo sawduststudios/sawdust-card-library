@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "songs": [
+    {
+      "id": "placeholder-song",
+      "title": "NÁZEV PÍSNĚ (nahraď mě skutečnou písní)",
+      "lyrics": "Sem patří text písně.\nKaždý řádek normálně na nový řádek.\n\nPrázdný řádek odděluje sloky.",
+      "image": null,
+      "tags": []
+    }
+  ]
+}
