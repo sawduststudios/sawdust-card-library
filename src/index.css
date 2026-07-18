@@ -2,8 +2,43 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background: radial-gradient(circle, #FFFFCC 0%, #FFFF00 60%, #FFCC00 100%);
+  background-attachment: fixed;
+  color: #0000FF;
+  font-family: 'Comic Sans MS', 'Times New Roman', Arial, sans-serif;
+  text-align: center;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+a {
+  color: #0000FF;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #FF0000;
+}
+
+h1, h2, h3 {
+  color: #FF0000;
+  text-shadow: 2px 2px 0px #FFFF00;
+}
+
+.blink {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.rainbow-border {
+  border: 10px solid transparent;
+  border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
 }

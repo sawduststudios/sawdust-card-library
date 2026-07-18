@@ -87,81 +87,82 @@ export default function Library() {
   };
 
   return (
-    <div>
-      <h2 style={{ borderBottom: '2px solid black', paddingBottom: '0.5rem', marginBottom: '1rem' }}>Kartotéka</h2>
+    <div style={{ textAlign: 'left', padding: '1rem', backgroundColor: '#FFFFCC', border: '5px ridge #00FF00' }}>
+      <h2 className="blink" style={{ borderBottom: '4px double #FF0000', paddingBottom: '0.5rem', marginBottom: '1rem', textAlign: 'center' }}>KARTOTÉKA SVĚTLA</h2>
       
       {/* Search & Filters */}
-      <div style={{ backgroundColor: '#f5f5f5', padding: '1rem', borderRadius: '8px', marginBottom: '1.5rem', border: '1px solid #ddd' }}>
+      <div style={{ backgroundColor: '#C0C0C0', padding: '1rem', border: '4px outset #FFFFFF', marginBottom: '1.5rem', color: '#000000', fontWeight: 'bold' }}>
         <input 
           type="text" 
-          placeholder="Hledej v archivech (jméno, pravidla, flavor)..." 
+          placeholder="Zadej hledané slovo (duše, aura, flavor)..." 
           value={q}
           onChange={(e) => updateSearchQuery(e.target.value)}
-          style={{ width: '100%', padding: '0.75rem', fontSize: '1rem', borderRadius: '4px', border: '1px solid #ccc', marginBottom: '1rem', boxSizing: 'border-box' }}
+          style={{ width: '100%', padding: '0.5rem', fontSize: '1rem', border: '3px inset #FFFFFF', marginBottom: '1rem', boxSizing: 'border-box', backgroundColor: '#FFFFFF', color: '#0000FF' }}
         />
         
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1.5rem', alignItems: 'flex-start' }}>
           <div>
-            <div style={{ fontSize: '0.85rem', fontWeight: 'bold', marginBottom: '0.25rem', color: '#555' }}>Třída (Class):</div>
+            <div style={{ fontSize: '1rem', marginBottom: '0.25rem', color: '#FF0000' }}>Třída (Class):</div>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
               {classes.map(c => (
                 <button 
                   key={c}
                   onClick={() => toggleArrayParam('class', c)}
                   style={{ 
-                    padding: '0.3rem 0.6rem', 
-                    borderRadius: '16px', 
-                    border: '1px solid #aaa', 
+                    padding: '4px 8px', 
+                    border: selectedClasses.includes(c) ? '3px inset #FFFFFF' : '3px outset #FFFFFF', 
                     cursor: 'pointer', 
-                    backgroundColor: selectedClasses.includes(c) ? '#333' : '#fff', 
-                    color: selectedClasses.includes(c) ? '#fff' : '#333', 
-                    textTransform: 'capitalize',
+                    backgroundColor: selectedClasses.includes(c) ? '#a0a0a0' : '#e0e0e0', 
+                    color: selectedClasses.includes(c) ? '#FF0000' : '#0000FF', 
+                    textTransform: 'uppercase',
                     display: 'flex',
                     alignItems: 'center',
-                    gap: '4px'
+                    gap: '4px',
+                    fontWeight: 'bold',
+                    fontFamily: 'inherit'
                   }}
                 >
                   {c.replace('-', ' ')}
-                  {selectedClasses.includes(c) && <span style={{ fontSize: '0.8rem', opacity: 0.8 }}>✕</span>}
+                  {selectedClasses.includes(c) && <span style={{ color: '#FF0000' }}>✕</span>}
                 </button>
               ))}
             </div>
           </div>
 
           <div>
-            <div style={{ fontSize: '0.85rem', fontWeight: 'bold', marginBottom: '0.25rem', color: '#555' }}>Vzácnost:</div>
+            <div style={{ fontSize: '1rem', marginBottom: '0.25rem', color: '#FF0000' }}>Vzácnost:</div>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
               {rarities.map(r => (
                 <button 
                   key={r}
                   onClick={() => toggleArrayParam('rarity', r)}
                   style={{ 
-                    padding: '0.3rem 0.6rem', 
-                    borderRadius: '16px', 
-                    border: '1px solid #aaa', 
+                    padding: '4px 8px', 
+                    border: selectedRarities.includes(r) ? '3px inset #FFFFFF' : '3px outset #FFFFFF', 
                     cursor: 'pointer', 
-                    backgroundColor: selectedRarities.includes(r) ? RARITY_COLORS[r] || '#ccc' : '#fff', 
-                    color: selectedRarities.includes(r) ? '#000' : '#333', 
-                    fontWeight: selectedRarities.includes(r) ? 'bold' : 'normal', 
-                    textTransform: 'capitalize',
+                    backgroundColor: selectedRarities.includes(r) ? RARITY_COLORS[r] || '#ccc' : '#e0e0e0', 
+                    color: selectedRarities.includes(r) ? '#000000' : '#0000FF', 
+                    fontWeight: 'bold', 
+                    textTransform: 'uppercase',
                     display: 'flex',
                     alignItems: 'center',
-                    gap: '4px'
+                    gap: '4px',
+                    fontFamily: 'inherit'
                   }}
                 >
                   {r}
-                  {selectedRarities.includes(r) && <span style={{ fontSize: '0.8rem', opacity: 0.8 }}>✕</span>}
+                  {selectedRarities.includes(r) && <span style={{ color: '#FF0000' }}>✕</span>}
                 </button>
               ))}
             </div>
           </div>
           
           <div style={{ flexGrow: 1, display: 'flex', justifyContent: 'flex-end', alignItems: 'center', gap: '0.5rem', minWidth: '200px' }}>
-            <div style={{ fontSize: '0.85rem', fontWeight: 'bold', color: '#555' }}>Řadit podle:</div>
+            <div style={{ fontSize: '1rem', color: '#FF0000' }}>Řadit podle:</div>
             <select 
               value={sort} 
               onChange={(e) => updateSortParam('sort', e.target.value)}
-              style={{ padding: '0.4rem', borderRadius: '4px', border: '1px solid #aaa' }}
+              style={{ padding: '4px', border: '3px inset #FFFFFF', backgroundColor: '#FFFFFF', color: '#0000FF', fontWeight: 'bold' }}
             >
               {sortOptions.map(opt => (
                 <option key={opt.value} value={opt.value}>{opt.label}</option>
@@ -169,7 +170,7 @@ export default function Library() {
             </select>
             <button 
               onClick={() => updateSortParam('dir', dir === 'asc' ? 'desc' : 'asc')}
-              style={{ padding: '0.4rem 0.8rem', borderRadius: '4px', border: '1px solid #aaa', cursor: 'pointer', backgroundColor: '#fff' }}
+              style={{ padding: '4px 8px', border: '3px outset #FFFFFF', cursor: 'pointer', backgroundColor: '#e0e0e0', color: '#FF0000', fontWeight: 'bold' }}
               title={dir === 'asc' ? 'Vzestupně' : 'Sestupně'}
             >
               {dir === 'asc' ? '⬆' : '⬇'}
@@ -178,70 +179,59 @@ export default function Library() {
         </div>
         
         {hasActiveFilters && (
-          <div style={{ width: '100%', marginTop: '1rem', borderTop: '1px dashed #ccc', paddingTop: '0.75rem' }}>
+          <div style={{ width: '100%', marginTop: '1rem', borderTop: '2px dashed #0000FF', paddingTop: '0.75rem', textAlign: 'center' }}>
             <button 
               onClick={clearAllFilters}
-              style={{ padding: '0.3rem 0.8rem', borderRadius: '4px', border: '1px solid #d9534f', cursor: 'pointer', backgroundColor: '#fff', color: '#d9534f', fontSize: '0.85rem' }}
+              style={{ padding: '0.5rem 1rem', border: '4px outset #FF0000', cursor: 'pointer', backgroundColor: '#FFCCCC', color: '#FF0000', fontSize: '1rem', fontWeight: 'bold' }}
             >
-              ✖ Vymazat všechny filtry
+              !!! VYMAZAT VŠECHNY FILTRY !!!
             </button>
           </div>
         )}
       </div>
 
-      <div style={{ marginBottom: '1rem', fontWeight: 'bold', color: '#444' }}>
+      <div style={{ marginBottom: '1rem', fontWeight: 'bold', color: '#008000', textAlign: 'center', fontSize: '1.2rem' }}>
         Nalezeno: {getResultLabel(sortedCards.length)}
       </div>
 
-      <div style={{ 
-        display: 'grid', 
-        gridTemplateColumns: 'repeat(auto-fill, minmax(140px, 1fr))', 
-        gap: '1rem'
-      }}>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(140px, 1fr))', gap: '1.5rem' }}>
         {sortedCards.map((card) => (
           <Link 
             key={card.id} 
             to={`/kartoteka/${card.id}?${searchParams.toString()}`} 
-            style={{ 
-              textDecoration: 'none', 
-              color: 'black',
-              border: '1px solid #ccc',
-              borderRadius: '8px',
-              padding: '0.5rem',
-              display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'center',
-              backgroundColor: '#fff',
-              boxShadow: '0 2px 5px rgba(0,0,0,0.05)'
-            }}
+            style={{ textDecoration: 'none', color: '#0000FF', display: 'flex', flexDirection: 'column', alignItems: 'center' }}
           >
             {card.image && images[`../../${card.image}`] ? (
               <img 
                 src={images[`../../${card.image}`]} 
                 alt={card.name} 
-                style={{ width: '100%', aspectRatio: '2.5/3.5', objectFit: 'cover', borderRadius: '4px', marginBottom: '0.5rem' }} 
+                style={{ width: '100%', height: 'auto', border: '4px solid #FF0000', backgroundColor: '#FFFFFF', padding: '2px' }} 
               />
             ) : (
-              <div style={{ width: '100%', aspectRatio: '2.5/3.5', backgroundColor: '#eee', borderRadius: '4px', marginBottom: '0.5rem', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                <span style={{ color: '#999', fontSize: '0.8rem' }}>Bez obrázku</span>
+              <div style={{ width: '100%', aspectRatio: '2.5/3.5', backgroundColor: '#e0e0e0', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '4px solid #0000FF', color: '#FF0000', fontWeight: 'bold' }}>
+                Bez obrázku
               </div>
             )}
-            <div style={{ fontWeight: 'bold', textAlign: 'center', marginBottom: '0.5rem', fontSize: '0.9rem', lineHeight: '1.2' }}>{card.name}</div>
-            <span style={{ 
-              backgroundColor: RARITY_COLORS[card.rarity] || '#f0f0f0', 
-              padding: '0.2rem 0.5rem', 
-              borderRadius: '12px', 
-              fontSize: '0.75rem',
-              textTransform: 'capitalize',
-              marginTop: 'auto'
+            <div style={{ marginTop: '0.5rem', fontWeight: 'bold', textAlign: 'center', fontSize: '0.9rem' }}>
+              {card.name}
+            </div>
+            <div style={{ 
+              fontSize: '0.8rem', 
+              color: '#000000', 
+              backgroundColor: RARITY_COLORS[card.rarity] || '#ccc',
+              padding: '2px 6px',
+              border: '2px inset #FFFFFF',
+              marginTop: '4px',
+              fontWeight: 'bold',
+              textTransform: 'uppercase'
             }}>
               {card.rarity}
-            </span>
+            </div>
           </Link>
         ))}
         {sortedCards.length === 0 && (
-          <div style={{ gridColumn: '1 / -1', textAlign: 'center', padding: '3rem', color: '#777' }}>
-            Žádná karta nenalezena. Kacířství!
+          <div style={{ gridColumn: '1 / -1', textAlign: 'center', padding: '3rem', color: '#FF0000', fontWeight: 'bold', fontSize: '1.5rem', border: '4px dashed #FF0000', backgroundColor: '#FFFFCC' }}>
+            ŽÁDNÉ KARTY NENALEZENY. SYSTÉM VÁS Oklamal!
           </div>
         )}
       </div>
