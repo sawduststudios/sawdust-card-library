@@ -9,20 +9,26 @@ const images = import.meta.glob('../../images/*', { eager: true, import: 'defaul
 const CardBackStyle = {
   width: '350px',
   aspectRatio: '2.5/3.5',
-  backgroundColor: '#222',
-  backgroundImage: 'repeating-linear-gradient(45deg, #111 0, #111 10px, #222 10px, #222 20px)',
+  background: 'radial-gradient(circle at center, #FFFDE7 0%, #FFD54F 50%, #FFB300 100%)',
   border: '10px solid #FFF',
   borderRadius: '15px',
   display: 'flex',
+  flexDirection: 'column',
   alignItems: 'center',
   justifyContent: 'center',
-  boxShadow: '0 10px 30px rgba(0,0,0,0.8)'
+  boxShadow: '0 0 40px #FFD700',
+  position: 'relative',
+  overflow: 'hidden'
 };
 
 const CardBackContent = () => (
-  <div style={{ width: '180px', height: '180px', borderRadius: '50%', backgroundColor: '#8B0000', border: '5px solid #FFF', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#FFF', fontSize: '2.5rem', fontWeight: 'bold', textAlign: 'center', transform: 'rotate(-15deg)', textShadow: '2px 2px 0 #000', userSelect: 'none', WebkitUserSelect: 'none' }}>
-    SAWDUST<br/>CARDS
-  </div>
+  <>
+    <div style={{ position: 'absolute', top: '-50%', left: '-50%', width: '200%', height: '200%', background: 'repeating-conic-gradient(from 0deg, rgba(255,255,255,0.5) 0deg 15deg, transparent 15deg 30deg)', animation: 'spin 20s linear infinite' }}></div>
+    <div style={{ fontSize: '8rem', zIndex: 1, filter: 'drop-shadow(0 10px 10px rgba(0,0,0,0.5))', marginTop: '2rem' }}>🪵</div>
+    <div style={{ zIndex: 1, color: '#FFF', fontSize: '2rem', fontWeight: 'bold', fontFamily: 'Arial, sans-serif', textShadow: '2px 2px 4px #000', marginTop: 'auto', marginBottom: '2rem' }}>
+      Powered by <span style={{ fontFamily: 'Impact, sans-serif', fontSize: '2.8rem' }}>FAITH</span>
+    </div>
+  </>
 );
 
 export default function Duel() {
@@ -41,7 +47,7 @@ export default function Duel() {
   const bgColor = useTransform(
     activeDragX,
     [-200, 0, 200],
-    ['#4a0000', '#8B4513', '#004a00'] 
+    ['#FF0000', 'transparent', '#00FF00'] 
   );
 
   useEffect(() => {
@@ -99,24 +105,21 @@ export default function Duel() {
 
   if (gameState === 'setup') {
     return (
-      <div className="duel-container" style={{ backgroundColor: '#8B4513' }}>
-        <div className="duel-bg" style={{ 
-          backgroundImage: 'radial-gradient(circle, transparent 20%, #5C4033 20%, #5C4033 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #5C4033 20%, #5C4033 80%, transparent 80%, transparent) 50px 50px',
-          backgroundSize: '100px 100px'
-        }} />
-        <Link to="/" style={{ position: 'absolute', top: 10, left: 10, color: '#FFF', fontSize: '1.5rem', zIndex: 100 }}>🔙 Zpět do bezpečí</Link>
-        <h1 className="saloon-title blink">SALOON SMRTI</h1>
+      <div className="duel-container">
+        <div className="duel-bg" />
+        <Link to="/" style={{ position: 'absolute', top: 10, left: 10, color: '#00FF00', fontSize: '1.5rem', zIndex: 100, textShadow: '2px 2px 0 #000', fontWeight: 'bold' }}>🔙 Zpět do bezpečí</Link>
+        <h1 className="saloon-title blink">CHRÁM PILIN</h1>
         <div className="duel-setup-box">
-          <h2 style={{ color: '#000', margin: 0, fontSize: '2rem' }}>VÍTEJ V PEKLE, ZBABĚLČE.</h2>
-          <p style={{ color: '#8B0000', fontWeight: 'bold', fontSize: '1.2rem', marginTop: '1rem' }}>
-            S kým si jdeš vyřizovat účty? Na pravidlech duelu se domluvte předem, jako správní desperáti.
+          <h2 style={{ color: '#FF00FF', margin: 0, fontSize: '2.5rem', fontFamily: 'Impact', textShadow: '2px 2px #000' }}>VÍTEJ VE SVATYNI, HŘÍŠNÍKU.</h2>
+          <p style={{ color: '#0000FF', fontWeight: 'bold', fontSize: '1.5rem', marginTop: '1rem', backgroundColor: '#FFFF00' }}>
+            S kým si jdeš vyřizovat účty? Na pravidlech zkoušky víry se domluvte předem.
           </p>
           <div style={{ margin: '2rem 0' }}>
-            <label style={{ color: '#000', fontWeight: 'bold', fontSize: '1.5rem', display: 'block', marginBottom: '1rem' }}>KOLIK MRTVÝCH DO VÝHRY?</label>
+            <label style={{ color: '#FF0000', fontWeight: '900', fontSize: '2rem', display: 'block', marginBottom: '1rem', textShadow: '2px 2px #FFF' }}>KOLIK MODLITEB DO SPASENÍ?</label>
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1rem' }}>
               <button 
                 onClick={() => setTargetScore(Math.max(1, targetScore - 1))}
-                style={{ fontSize: '2.5rem', width: '60px', height: '60px', backgroundColor: '#8B0000', color: '#FFF', border: '5px outset #FF0000', cursor: 'pointer', fontWeight: 'bold' }}
+                style={{ fontSize: '2.5rem', width: '60px', height: '60px', backgroundColor: '#FF0000', color: '#FFFF00', border: '5px outset #FF00FF', cursor: 'pointer', fontWeight: '900' }}
               >
                 -
               </button>
@@ -131,13 +134,13 @@ export default function Duel() {
               />
               <button 
                 onClick={() => setTargetScore(Math.min(99, targetScore + 1))}
-                style={{ fontSize: '2.5rem', width: '60px', height: '60px', backgroundColor: '#008000', color: '#FFF', border: '5px outset #00FF00', cursor: 'pointer', fontWeight: 'bold' }}
+                style={{ fontSize: '2.5rem', width: '60px', height: '60px', backgroundColor: '#00FF00', color: '#FF00FF', border: '5px outset #FFFF00', cursor: 'pointer', fontWeight: '900' }}
               >
                 +
               </button>
             </div>
           </div>
-          <button className="draw-weapon-btn" onClick={startDuel}>TAS ZBRAŇ!</button>
+          <button className="draw-weapon-btn" onClick={startDuel}>ZJEV PRAVDU!</button>
         </div>
       </div>
     );
@@ -190,17 +193,14 @@ export default function Duel() {
         animate={{ y: 0, scale: 1, rotate: 0 }}
         transition={{ type: 'spring', bounce: 0.6, duration: 0.8 }}
         className="duel-container" 
-        style={{ backgroundColor: '#8B4513', justifyContent: 'center' }}
+        style={{ justifyContent: 'center' }}
       >
-        <div className="duel-bg" style={{ 
-          backgroundImage: 'radial-gradient(circle, transparent 20%, #5C4033 20%, #5C4033 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #5C4033 20%, #5C4033 80%, transparent 80%, transparent) 50px 50px',
-          backgroundSize: '100px 100px'
-        }} />
-        <div className="duel-setup-box" style={{ backgroundColor: '#000', border: '10px ridge #FFD700', padding: 'clamp(1.5rem, 5vw, 3rem)' }}>
-          <h1 style={{ fontSize: 'clamp(2.5rem, 12vw, 4rem)', margin: 0, color: isPlayerWin ? '#00FF00' : '#FF0000', textShadow: '2px 2px 0 #FFF', wordBreak: 'break-word' }}>
+        <div className="duel-bg" />
+        <div className="duel-setup-box" style={{ backgroundColor: '#00FFFF', border: '15px dashed #FF00FF', padding: 'clamp(1.5rem, 5vw, 3rem)' }}>
+          <h1 style={{ fontSize: 'clamp(2.5rem, 12vw, 4rem)', margin: 0, color: isPlayerWin ? '#00FF00' : '#FF0000', textShadow: '4px 4px 0 #000', wordBreak: 'break-word', fontFamily: 'Impact' }}>
             {isPlayerWin ? 'VÍTĚZSTVÍ!' : 'PORÁŽKA!'}
           </h1>
-          <h2 style={{ fontSize: 'clamp(2rem, 8vw, 2.5rem)', color: '#FFF', margin: '1rem 0 2rem 0' }}>
+          <h2 style={{ fontSize: 'clamp(2rem, 8vw, 3rem)', color: '#FF00FF', margin: '1rem 0 2rem 0', backgroundColor: '#FFFF00', display: 'inline-block', padding: '0.5rem' }}>
             SKÓRE:<br/>{playerScore} - {enemyScore}
           </h2>
           
@@ -212,20 +212,20 @@ export default function Duel() {
               setCurrentCard(null);
               setScreenEffect(null);
               setGameState('setup');
-            }} style={{ width: '100%', fontSize: 'clamp(1.2rem, 5vw, 1.5rem)', border: '5px ridge #FFF' }}>
-              NOVÁ PŘESTŘELKA
+            }} style={{ width: '100%', fontSize: 'clamp(1.2rem, 5vw, 1.5rem)', border: '10px outset #00FF00', animation: 'none' }}>
+              NOVÁ ZKOUŠKA VÍRY
             </button>
             
             <Link to="/" style={{ 
               display: 'inline-block', 
               width: '100%', 
-              backgroundColor: '#555', 
-              color: '#FFF', 
+              backgroundColor: '#0000FF', 
+              color: '#FFFF00', 
               textDecoration: 'none', 
               padding: '1rem 2rem', 
               fontSize: 'clamp(1.2rem, 5vw, 1.5rem)', 
-              fontWeight: 'bold', 
-              border: '5px ridge #FFF',
+              fontWeight: '900', 
+              border: '10px outset #FF0000',
               textAlign: 'center' 
             }}>
               ZPĚT DO KNIHOVNY
@@ -241,14 +241,11 @@ export default function Duel() {
       className={`duel-container ${screenEffect === 'shake' ? 'shake-hard' : ''}`}
       style={{ backgroundColor: bgColor }}
     >
-      <div className="duel-bg" style={{ 
-        backgroundImage: 'radial-gradient(circle, transparent 20%, rgba(92, 64, 51, 0.5) 20%, rgba(92, 64, 51, 0.5) 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, rgba(92, 64, 51, 0.5) 20%, rgba(92, 64, 51, 0.5) 80%, transparent 80%, transparent) 50px 50px',
-        backgroundSize: '100px 100px'
-      }} />
+      <div className="duel-bg" />
       
       {screenEffect === 'godRays' && <div className="god-rays"></div>}
 
-      <Link to="/" style={{ position: 'absolute', top: 10, left: 10, color: '#FFF', fontSize: '1.5rem', zIndex: 100 }} className="no-print">🔙 Zpět</Link>
+      <Link to="/" style={{ position: 'absolute', top: 10, left: 10, color: '#00FF00', fontSize: '1.5rem', zIndex: 100, fontWeight: 'bold', textShadow: '2px 2px 0 #000' }} className="no-print">🔙 Zpět</Link>
       
       <div className="scoreboard no-print" style={{ marginTop: '3rem' }}>
         <div className="score-player">
@@ -263,6 +260,14 @@ export default function Duel() {
       </div>
 
       <div className="duel-arena no-print" style={{ perspective: 1000 }}>
+        {isDrawing && (
+          <>
+            <motion.div animate={{ rotate: 360, scale: [1, 1.5, 1] }} transition={{ duration: 0.5, repeat: Infinity }} style={{ position: 'absolute', left: '10%', top: '20%', fontSize: '4rem', zIndex: 5 }}>🤠</motion.div>
+            <motion.div animate={{ rotate: -360, scale: [1.5, 1, 1.5] }} transition={{ duration: 0.5, repeat: Infinity }} style={{ position: 'absolute', right: '10%', top: '40%', fontSize: '4rem', zIndex: 5 }}>🔫</motion.div>
+            <motion.div animate={{ rotate: 360, x: [-20, 20, -20] }} transition={{ duration: 0.3, repeat: Infinity }} style={{ position: 'absolute', left: '20%', bottom: '20%', fontSize: '4rem', zIndex: 5 }}>🔥</motion.div>
+            <motion.div animate={{ rotate: -360, y: [-20, 20, -20] }} transition={{ duration: 0.3, repeat: Infinity }} style={{ position: 'absolute', right: '20%', bottom: '10%', fontSize: '4rem', zIndex: 5 }}>😂</motion.div>
+          </>
+        )}
         {isDrawing ? (
           <motion.div 
             animate={{ 

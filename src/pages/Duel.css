@@ -1,13 +1,18 @@
 .duel-container {
   min-height: 100vh;
-  font-family: 'Courier New', Courier, monospace;
-  color: #FFD700;
+  font-family: 'Comic Sans MS', 'Times New Roman', Arial, sans-serif;
+  color: #0000FF;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 1rem;
   overflow: hidden;
   position: relative;
+}
+
+@keyframes scrollBg {
+  from { background-position: 0 0, 20px 20px; }
+  to { background-position: 40px 40px, 60px 60px; }
 }
 
 .duel-bg {
@@ -17,6 +22,9 @@
   width: 100vw;
   height: 100vh;
   z-index: -2;
+  animation: scrollBg 2s linear infinite;
+  background-image: repeating-linear-gradient(45deg, #FFFF00 25%, transparent 25%, transparent 75%, #FFFF00 75%, #FFFF00), repeating-linear-gradient(45deg, #FFFF00 25%, #FF00FF 25%, #FF00FF 75%, #FFFF00 75%, #FFFF00);
+  background-size: 40px 40px;
 }
 
 .shake-hard {
@@ -50,8 +58,10 @@
 
 .saloon-title {
   font-size: clamp(2rem, 8vw, 4rem);
-  color: #8B0000; /* DarkRed */
+  color: #FF0000;
+  text-shadow: 3px 3px 0 #00FF00, -3px -3px 0 #0000FF;
   margin-top: 3rem;
+  font-weight: 900;
 }
 
 .blood-splatter {
@@ -62,11 +72,11 @@
 }
 
 .duel-setup-box {
-  background-color: #DEB887; /* BurlyWood */
-  border: 10px ridge #8B4513;
+  background-color: #00FFFF;
+  border: 15px dotted #FF00FF;
   padding: 2rem;
   text-align: center;
-  box-shadow: 10px 10px 0px #000;
+  box-shadow: 15px 15px 0px #000;
   max-width: 500px;
   width: 100%;
   margin-top: 2rem;
@@ -76,10 +86,10 @@
   font-size: 3rem;
   width: 100px;
   text-align: center;
-  background-color: #000;
-  color: #00FF00;
-  border: 5px inset #FF0000;
-  font-family: 'Courier New', Courier, monospace;
+  background-color: #FFFF00;
+  color: #FF0000;
+  border: 8px outset #00FF00;
+  font-family: 'Comic Sans MS', cursive;
   font-weight: bold;
   margin: 1rem 0;
 }
@@ -88,13 +98,14 @@
   font-size: 2rem;
   background-color: #FF0000;
   color: #FFFF00;
-  border: 8px outset #8B0000;
+  border: 10px outset #00FF00;
   padding: 1rem 2rem;
   cursor: pointer;
   text-transform: uppercase;
-  font-weight: bold;
-  box-shadow: 5px 5px #000;
+  font-weight: 900;
+  box-shadow: 5px 5px #0000FF;
   transition: transform 0.1s;
+  animation: blinker 0.2s linear infinite;
 }
 
 .draw-weapon-btn:active {
@@ -109,19 +120,19 @@
   justify-content: space-between;
   width: 100%;
   max-width: 600px;
-  background-color: #000;
-  border: 6px double #FFD700;
+  background-color: #FF00FF;
+  border: 8px dashed #00FFFF;
   padding: 1rem;
   margin-bottom: 2rem;
   font-size: 1.5rem;
   font-weight: bold;
   text-transform: uppercase;
-  box-shadow: 5px 5px 15px #000;
+  box-shadow: 10px 10px 0px #FFFF00;
 }
 
 .score-player {
   color: #00FF00;
-  text-shadow: 2px 2px #000;
+  text-shadow: 3px 3px #000;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -129,7 +140,7 @@
 
 .score-enemy {
   color: #FF0000;
-  text-shadow: 2px 2px #000;
+  text-shadow: 3px 3px #000;
   display: flex;
   flex-direction: column;
   align-items: center;
