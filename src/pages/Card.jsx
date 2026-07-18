@@ -1,18 +1,21 @@
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useSearchParams } from 'react-router-dom';
 import data from '../../data/cards.json';
 
 const images = import.meta.glob('../../images/*', { eager: true, import: 'default' });
 
 export default function Card() {
   const { id } = useParams();
+  const [searchParams] = useSearchParams();
   const card = data.cards.find((c) => c.id === id);
+
+  const backLink = searchParams.toString() ? `/kartoteka?${searchParams.toString()}` : '/kartoteka';
 
   if (!card) {
     return (
       <div style={{ textAlign: 'center', marginTop: '3rem' }}>
         <h2>Karta nenalezena! (404)</h2>
         <p>Tato karta ve svatých spisech neexistuje.</p>
-        <Link to="/kartoteka">Zpět do Kartotéky</Link>
+        <Link to={backLink}>Zpět do Kartotéky</Link>
       </div>
     );
   }
@@ -20,7 +23,7 @@ export default function Card() {
   return (
     <article style={{ maxWidth: '500px', margin: '0 auto', paddingBottom: '3rem' }}>
       <div style={{ marginBottom: '1.5rem' }}>
-        <Link to="/kartoteka" style={{ textDecoration: 'none', color: '#666' }}>← Zpět do Kartotéky</Link>
+        <Link to={backLink} style={{ textDecoration: 'none', color: '#666' }}>← Zpět do Kartotéky</Link>
       </div>
       
       {card.image && images[`../../${card.image}`] && (
