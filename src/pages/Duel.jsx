@@ -20,7 +20,7 @@ const CardBackStyle = {
 };
 
 const CardBackContent = () => (
-  <div style={{ width: '180px', height: '180px', borderRadius: '50%', backgroundColor: '#8B0000', border: '5px solid #FFF', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#FFF', fontSize: '2.5rem', fontWeight: 'bold', textAlign: 'center', transform: 'rotate(-15deg)', textShadow: '2px 2px 0 #000' }}>
+  <div style={{ width: '180px', height: '180px', borderRadius: '50%', backgroundColor: '#8B0000', border: '5px solid #FFF', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#FFF', fontSize: '2.5rem', fontWeight: 'bold', textAlign: 'center', transform: 'rotate(-15deg)', textShadow: '2px 2px 0 #000', userSelect: 'none', WebkitUserSelect: 'none' }}>
     SAWDUST<br/>CARDS
   </div>
 );
@@ -355,7 +355,7 @@ function DuelSwipeCard({ card, dragX, onSwipe }) {
              src={images[`../../${card.image}`]} 
              alt={card.name} 
              draggable="false"
-             style={{ width: '100%', height: 'auto', display: 'block', border: '4px solid #000' }} 
+             style={{ width: '100%', height: '100%', display: 'block' }} 
            />
         ) : (
            <div style={{ width: '100%', aspectRatio: '2.5/3.5', backgroundColor: '#000', color: '#FF0000', border: '4px solid #000', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>

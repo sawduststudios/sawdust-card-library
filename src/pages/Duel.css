@@ -159,18 +159,16 @@
 
 .duel-card {
   width: 100%;
-  background-color: #FDF5E6;
-  border: 10px ridge #8B4513;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding: 0.5rem;
   box-shadow: 0 20px 40px rgba(0,0,0,0.8);
   transform-origin: center center;
   cursor: grab;
   position: relative;
+  overflow: hidden;
 }
 
 .duel-card:active {
