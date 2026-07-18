@@ -4,6 +4,7 @@ import Library from './pages/Library';
 import Lyrics from './pages/Lyrics';
 import Song from './pages/Song';
 import Card from './pages/Card';
+import Summon from './pages/Summon';
 import Layout from './components/Layout';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/kartoteka/:id" element={<Card />} />
           <Route path="/texty" element={<Lyrics />} />
           <Route path="/texty/:id" element={<Song />} />
+          <Route path="/vyvolat" element={<Summon />} />
         </Route>
       </Routes>
     </HashRouter>
