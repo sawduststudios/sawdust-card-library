@@ -85,6 +85,23 @@ export default function Landing() {
           }}>
             🧪 ZAKÁZANÉ ZBOŽÍ
           </WiggleLink>
+
+          <WiggleLink to="/duel" baseRot={-5} style={{ 
+            display: 'inline-block',
+            padding: '1.2rem', 
+            backgroundColor: '#FF0000', 
+            border: '6px ridge #000000', 
+            textDecoration: 'none', 
+            color: '#FFFF00',
+            fontWeight: 'bold',
+            fontSize: '1.6rem',
+            textShadow: '4px 4px #000000',
+            boxShadow: 'inset 0 0 10px #000',
+            maxWidth: '90vw',
+            boxSizing: 'border-box'
+          }}>
+            🤠 KRVAVÝ DUEL
+          </WiggleLink>
         </div>
       </div>
 

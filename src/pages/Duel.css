@@ -1,0 +1,310 @@
+.duel-container {
+  min-height: 100vh;
+  font-family: 'Courier New', Courier, monospace;
+  color: #FFD700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.duel-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -2;
+}
+
+.shake-hard {
+  animation: shake 0.5s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+@keyframes shake {
+  10%, 90% { transform: translate3d(-10px, 0, 0); }
+  20%, 80% { transform: translate3d(20px, 0, 0); }
+  30%, 50%, 70% { transform: translate3d(-30px, 0, 0); }
+  40%, 60% { transform: translate3d(30px, 0, 0); }
+}
+
+.god-rays {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200vw;
+  height: 200vw;
+  background: repeating-conic-gradient(from 0deg, rgba(255,255,0,0.5) 0deg 15deg, transparent 15deg 30deg);
+  transform-origin: center center;
+  transform: translate(-50%, -50%);
+  animation: spin 10s linear infinite;
+  z-index: -1;
+  pointer-events: none;
+}
+
+@keyframes spin {
+  100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+.saloon-title {
+  font-size: clamp(2rem, 8vw, 4rem);
+  color: #8B0000; /* DarkRed */
+  margin-top: 3rem;
+}
+
+.blood-splatter {
+  color: #FF0000;
+  font-weight: bold;
+  font-family: 'Comic Sans MS', cursive;
+  text-shadow: 2px 2px #000;
+}
+
+.duel-setup-box {
+  background-color: #DEB887; /* BurlyWood */
+  border: 10px ridge #8B4513;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 10px 10px 0px #000;
+  max-width: 500px;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.duel-input {
+  font-size: 3rem;
+  width: 100px;
+  text-align: center;
+  background-color: #000;
+  color: #00FF00;
+  border: 5px inset #FF0000;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.draw-weapon-btn {
+  font-size: 2rem;
+  background-color: #FF0000;
+  color: #FFFF00;
+  border: 8px outset #8B0000;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  box-shadow: 5px 5px #000;
+  transition: transform 0.1s;
+}
+
+.draw-weapon-btn:active {
+  border-style: inset;
+  transform: translate(5px, 5px);
+  box-shadow: 0px 0px #000;
+}
+
+/* Scoreboard */
+.scoreboard {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px;
+  background-color: #000;
+  border: 6px double #FFD700;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 5px 5px 15px #000;
+}
+
+.score-player {
+  color: #00FF00;
+  text-shadow: 2px 2px #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.score-enemy {
+  color: #FF0000;
+  text-shadow: 2px 2px #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.score-number {
+  font-size: 3rem;
+  font-family: 'Impact', fantasy;
+}
+
+/* Arena */
+.duel-arena {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+
+.duel-card-wrapper {
+  width: 350px;
+  max-width: 90vw;
+  perspective: 1000px;
+}
+
+.duel-card {
+  width: 100%;
+  background-color: #FDF5E6;
+  border: 10px ridge #8B4513;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0.5rem;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.8);
+  transform-origin: center center;
+  cursor: grab;
+  position: relative;
+}
+
+.duel-card:active {
+  cursor: grabbing;
+}
+
+/* Stamps */
+.duel-stamp {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-15deg);
+  font-size: 3rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 8px dashed;
+  padding: 1rem;
+  border-radius: 10px;
+  pointer-events: none;
+  z-index: 10;
+  font-family: 'Impact', fantasy;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.stamp-win {
+  color: #00FF00;
+  border-color: #00FF00;
+  text-shadow: 4px 4px #000;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.stamp-lose {
+  color: #FF0000;
+  border-color: #FF0000;
+  text-shadow: 4px 4px #000;
+  background-color: rgba(0,0,0,0.5);
+}
+
+/* End screen */
+.wanted-poster {
+  background-color: #D2B48C;
+  border: 15px solid #8B4513;
+  padding: 2rem;
+  width: 90vw;
+  max-width: 600px;
+  text-align: center;
+  box-shadow: inset 0 0 50px #000, 20px 20px 0px rgba(0,0,0,0.5);
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" opacity="0.1"><rect width="100" height="100" fill="%238B4513"/><path d="M0 0l100 100M100 0L0 100" stroke="%23000" stroke-width="2"/></svg>');
+}
+
+.wanted-title {
+  font-size: 5rem;
+  font-family: 'Impact', fantasy;
+  color: #000;
+  margin: 0;
+  letter-spacing: 5px;
+}
+
+.wanted-subtitle {
+  font-size: 2rem;
+  color: #8B0000;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.print-penalty-btn {
+  font-size: 1.5rem;
+  background-color: #000;
+  color: #FF0000;
+  border: 5px dashed #FF0000;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+/* Deepfried End Screens */
+.deepfried-win {
+  animation: deepfried-colors 0.5s infinite, shake 0.2s infinite;
+  background: radial-gradient(circle, #ff00ff, #00ffff, #ffff00);
+}
+
+.deepfried-lose {
+  background-color: #300;
+  animation: shake 0.5s infinite;
+  filter: contrast(200%) saturate(300%) sepia(100%) hue-rotate(300deg);
+}
+
+@keyframes deepfried-colors {
+  0% { filter: hue-rotate(0deg) contrast(200%) saturate(300%); }
+  50% { filter: hue-rotate(180deg) contrast(300%) saturate(500%); }
+  100% { filter: hue-rotate(360deg) contrast(200%) saturate(300%); }
+}
+
+.spin-fast {
+  animation: spin 0.5s linear infinite;
+  display: inline-block;
+}
+
+.pulse-fast {
+  animation: pulse-scale 0.2s alternate infinite;
+  display: inline-block;
+}
+
+@keyframes pulse-scale {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.5); }
+}
+
+.mlg-text {
+  font-family: "Comic Sans MS", "Impact", sans-serif;
+  font-size: clamp(3rem, 10vw, 8rem);
+  font-weight: 900;
+  color: #0f0;
+  text-shadow: 5px 5px 0px #f0f, -5px -5px 0px #00f, 0 0 20px #fff;
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  z-index: 100;
+  position: relative;
+}
+
+.sad-text {
+  font-family: "Impact", sans-serif;
+  font-size: clamp(3rem, 10vw, 8rem);
+  font-weight: 900;
+  color: #000;
+  text-shadow: 5px 5px 0px #f00, 0 0 20px #f00;
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  z-index: 100;
+  position: relative;
+}

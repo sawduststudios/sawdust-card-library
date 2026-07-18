@@ -6,6 +6,7 @@ import Song from './pages/Song';
 import Card from './pages/Card';
 import Summon from './pages/Summon';
 import Tinder from './pages/Tinder';
+import Duel from './pages/Duel';
 import Layout from './components/Layout';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/vyvolat" element={<Summon />} />
         </Route>
         <Route path="/seznamka" element={<Tinder />} />
+        <Route path="/duel" element={<Duel />} />
       </Routes>
     </HashRouter>
   );

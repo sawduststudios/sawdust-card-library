@@ -193,7 +193,7 @@ export default function Summon() {
               disabled={summonState === 'discarding'}
               style={{ padding: '1rem', backgroundColor: '#00FF00', color: '#0000FF', border: '6px outset #FFFFFF', fontWeight: 'bold', fontSize: '1.2rem', cursor: summonState === 'discarding' ? 'not-allowed' : 'pointer', fontFamily: 'inherit' }}
             >
-              ZAHODIT A TAHAT ZNOVU
+              TAHAT ZNOVU
             </button>
             <button 
               onClick={handleExit}

@@ -124,6 +124,23 @@ export default function Library() {
         }}>
           🧪 Zakázané zboží
         </WiggleLink>
+
+        <WiggleLink to="/duel" baseRot={-4} style={{ 
+          display: 'inline-block',
+          padding: '0.6rem 1rem', 
+          backgroundColor: '#FF0000', 
+          border: '4px ridge #000000', 
+          textDecoration: 'none', 
+          color: '#FFFF00',
+          fontWeight: 'bold',
+          fontSize: '1.2rem',
+          textShadow: '2px 2px #000000',
+          boxShadow: 'inset 0 0 5px #000',
+          maxWidth: '90vw',
+          boxSizing: 'border-box'
+        }}>
+          🤠 Krvavý duel
+        </WiggleLink>
       </div>
 
       {/* Search & Filters */}
