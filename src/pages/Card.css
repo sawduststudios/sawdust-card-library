@@ -64,3 +64,31 @@
     display: block;
   }
 }
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  body, html {
+    margin: 0 !important;
+    padding: 0 !important;
+    background: white;
+  }
+
+  .print-image {
+    width: 63.5mm !important;
+    height: auto !important;
+    max-height: 88.9mm !important;
+    object-fit: contain !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    margin: 10mm !important;
+    display: block !important;
+    page-break-inside: avoid;
+  }
+
+  @page {
+    margin: 0;
+  }
+}
