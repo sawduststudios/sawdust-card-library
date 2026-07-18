@@ -109,12 +109,14 @@ export default function Card() {
       </div>
       
       <div className="no-print">
-        <h1 style={{ fontSize: '2rem', marginBottom: '0.5rem', display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
-          {card.name}
-          <span style={{ fontSize: '1rem', fontWeight: 'normal', color: '#555', textTransform: 'capitalize' }}>
+        <div style={{ marginBottom: '1.5rem' }}>
+          <h1 style={{ fontSize: '2rem', margin: '0 0 0.2rem 0', lineHeight: '1.2' }}>
+            {card.name}
+          </h1>
+          <div style={{ fontSize: '1rem', color: '#666', textTransform: 'capitalize' }}>
             {card.rarity} • {card.class.replace('-', ' ')}
-          </span>
-        </h1>
+          </div>
+        </div>
 
         {card.printCount !== null && (
           <div style={{ fontStyle: 'italic', color: '#888', marginBottom: '1rem' }}>
