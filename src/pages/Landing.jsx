@@ -5,16 +5,22 @@ export default function Landing() {
   return (
     <div style={{ padding: '2rem 1rem' }}>
       <marquee scrollamount="12" style={{ color: '#008000', fontSize: '1.5rem', fontWeight: 'bold', border: '2px dashed #008000', marginBottom: '2rem' }}>
-        +++ VÍTEJTE VE SVATYNI PILIN +++ NEVĚŘTE LŽÍM SYSTÉMU +++ OTEVŘETE SVOU MYSL +++
+        +++ VÍTEJTE VE SVATYNI PILIN +++ OFICIÁLNÍ KARETNÍ HRA: SAW THE DUST GAME +++ NEVĚŘTE LŽÍM SYSTÉMU +++
       </marquee>
       
-      <h1 className="blink" style={{ fontSize: '3rem', margin: '0 0 1rem 0' }}>Svatyně Pilin</h1>
+      <h1 className="blink" style={{ fontSize: 'clamp(2.5rem, 8vw, 3.5rem)', margin: '0 0 0.5rem 0', color: '#FF0000', textShadow: '4px 4px 0 #FFFF00' }}>
+        SAW THE DUST GAME
+      </h1>
+      <h2 style={{ fontSize: '1.5rem', color: '#008000', margin: '0 0 1.5rem 0', fontWeight: 'bold' }}>
+        (Posvátná karetní hra řádu Sons of Sawdust)
+      </h2>
+
       <p style={{ fontSize: '1.2rem', color: '#0000FF', fontWeight: 'bold', maxWidth: '600px', margin: '0 auto 2rem auto', lineHeight: '1.5' }}>
         Toto je <span style={{ color: '#FF0000' }}>jediné pravé místo</span> pro uchování vědomostí. 
-        Karty z našich koncertů nesou <span style={{ textDecoration: 'underline' }}>vesmírnou energii</span>.
+        Karty ze hry <span style={{ textDecoration: 'underline', color: '#FF0000' }}>Saw the Dust Game</span> z našich koncertů nesou <span style={{ textDecoration: 'underline' }}>vesmírnou energii</span>.
       </p>
 
-      <div style={{ display: 'flex', gap: '2rem', justifyContent: 'center', marginTop: '3rem', flexWrap: 'wrap', position: 'relative', zIndex: 10 }}>
+      <div style={{ display: 'flex', gap: '2rem', justifyContent: 'center', marginTop: '2rem', flexWrap: 'wrap', position: 'relative', zIndex: 10 }}>
         <Link to="/kartoteka" style={{ 
           display: 'block', 
           padding: '2rem', 
@@ -27,7 +33,7 @@ export default function Landing() {
           width: '250px'
         }}>
           🗄️ KARTOTÉKA<br/>
-          <span style={{ fontSize: '1rem', color: '#0000FF' }}>(Katalog karet)</span>
+          <span style={{ fontSize: '1rem', color: '#0000FF' }}>(Saw the Dust Game)</span>
         </Link>
 
         <Link to="/texty" style={{ 

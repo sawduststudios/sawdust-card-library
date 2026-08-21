@@ -23,7 +23,8 @@ export function filterAndSortCards(cards, searchParams) {
       const nameMatch = normalizeString(card.name).includes(query);
       const rulesMatch = normalizeString(card.rules).includes(query);
       const flavorMatch = normalizeString(card.flavor).includes(query);
-      if (!nameMatch && !rulesMatch && !flavorMatch) return false;
+      const loreMatch = normalizeString(card.lore).includes(query);
+      if (!nameMatch && !rulesMatch && !flavorMatch && !loreMatch) return false;
     }
     return true;
   });

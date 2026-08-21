@@ -1,5 +1,5 @@
+import { useState } from 'react';
 import { useSearchParams, Link } from 'react-router-dom';
-import WiggleLink from '../components/WiggleLink';
 import data from '../../data/cards.json';
 import { filterAndSortCards } from '../utils/filterCards';
 
@@ -22,6 +22,9 @@ export default function Library() {
   const sort = searchParams.get('sort') || 'name';
   const dir = searchParams.get('dir') || 'asc';
   const q = searchParams.get('q') || '';
+
+  const hasActiveFilters = selectedClasses.length > 0 || selectedRarities.length > 0 || Boolean(q);
+  const [isFilterOpen, setIsFilterOpen] = useState(false);
 
   const updateSortParam = (key, value) => {
     const newParams = new URLSearchParams(searchParams);
@@ -63,8 +66,6 @@ export default function Library() {
     setSearchParams(newParams);
   };
 
-  const hasActiveFilters = selectedClasses.length > 0 || selectedRarities.length > 0 || q;
-
   const classes = [...new Set(data.cards.map(c => c.class))].filter(Boolean).sort();
   const rarities = [...new Set(data.cards.map(c => c.rarity))].filter(Boolean).sort();
   
@@ -89,162 +90,159 @@ export default function Library() {
 
   return (
     <div style={{ textAlign: 'left', padding: '1rem', backgroundColor: '#FFFFCC', border: '5px ridge #00FF00' }}>
-      <h2 className="blink" style={{ borderBottom: '4px double #FF0000', paddingBottom: '0.5rem', marginBottom: '1rem', textAlign: 'center' }}>KARTOTÉKA SVĚTLA</h2>
-      
-      {/* Sub-features accessible from library */}
-      <div style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center', marginBottom: '2.5rem', marginTop: '1rem', flexWrap: 'wrap' }}>
-        <WiggleLink to="/vyvolat" baseRot={-2} style={{ 
-          display: 'inline-block',
-          padding: '0.5rem 1rem', 
-          backgroundColor: '#FF00FF', 
-          border: '4px dotted #FFFF00', 
-          textDecoration: 'none', 
-          color: '#000',
-          fontWeight: 'bold',
-          fontSize: '1.2rem',
-          boxShadow: '4px 4px 0px #000',
-          maxWidth: '90vw',
-          boxSizing: 'border-box'
-        }}>
-          🎲 Vyvolat kartu
-        </WiggleLink>
+      <h2 className="blink" style={{ borderBottom: '4px double #FF0000', paddingBottom: '0.5rem', marginBottom: '0.75rem', textAlign: 'center', fontSize: 'clamp(1.3rem, 5vw, 2rem)' }}>
+        SAW THE DUST GAME: KARTOTÉKA SVĚTLA
+      </h2>
 
-        <WiggleLink to="/seznamka" baseRot={2} style={{ 
-          display: 'inline-block',
-          padding: '0.6rem 1rem', 
-          backgroundColor: '#000', 
-          border: '3px solid #00FF00', 
-          textDecoration: 'underline wavy #FF0000', 
-          color: '#00FF00',
-          fontWeight: 'bold',
-          fontSize: '1.2rem',
-          textShadow: '1px 1px #FF0000',
-          maxWidth: '90vw',
-          boxSizing: 'border-box'
-        }}>
-          🧪 Zakázané zboží
-        </WiggleLink>
+      {/* Sort Box - Always Separate & Always Visible */}
+      <div style={{ 
+        backgroundColor: '#C0C0C0', 
+        padding: '0.5rem 0.75rem', 
+        border: '3px outset #FFFFFF', 
+        marginBottom: '0.75rem', 
+        display: 'flex', 
+        flexWrap: 'wrap', 
+        justifyContent: 'space-between', 
+        alignItems: 'center', 
+        gap: '0.5rem',
+        color: '#000000',
+        fontWeight: 'bold'
+      }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+          <span style={{ fontSize: '0.95rem', color: '#FF0000' }}>Řadit podle:</span>
+          <select 
+            value={sort} 
+            onChange={(e) => updateSortParam('sort', e.target.value)}
+            style={{ padding: '3px 6px', border: '2px inset #FFFFFF', backgroundColor: '#FFFFFF', color: '#0000FF', fontWeight: 'bold', fontSize: '0.9rem' }}
+          >
+            {sortOptions.map(opt => (
+              <option key={opt.value} value={opt.value}>{opt.label}</option>
+            ))}
+          </select>
+          <button 
+            onClick={() => updateSortParam('dir', dir === 'asc' ? 'desc' : 'asc')}
+            style={{ padding: '2px 8px', border: '2px outset #FFFFFF', cursor: 'pointer', backgroundColor: '#e0e0e0', color: '#FF0000', fontWeight: 'bold', fontSize: '0.9rem' }}
+            title={dir === 'asc' ? 'Vzestupně' : 'Sestupně'}
+          >
+            {dir === 'asc' ? '⬆' : '⬇'}
+          </button>
+        </div>
 
-        <WiggleLink to="/duel" baseRot={-4} style={{ 
-          display: 'inline-block',
-          padding: '0.6rem 1rem', 
-          backgroundColor: '#FF0000', 
-          border: '4px ridge #000000', 
-          textDecoration: 'none', 
-          color: '#FFFF00',
-          fontWeight: 'bold',
-          fontSize: '1.2rem',
-          textShadow: '2px 2px #000000',
-          boxShadow: 'inset 0 0 5px #000',
-          maxWidth: '90vw',
-          boxSizing: 'border-box'
-        }}>
-          🤠 Krvavý duel
-        </WiggleLink>
+        <div style={{ fontWeight: 'bold', color: '#008000', fontSize: '0.95rem' }}>
+          Nalezeno: {getResultLabel(sortedCards.length)}
+        </div>
       </div>
 
-      {/* Search & Filters */}
-      <div style={{ backgroundColor: '#C0C0C0', padding: '1rem', border: '4px outset #FFFFFF', marginBottom: '1.5rem', color: '#000000', fontWeight: 'bold' }}>
-        <input 
-          type="text" 
-          placeholder="Zadej hledané slovo (duše, aura, flavor)..." 
-          value={q}
-          onChange={(e) => updateSearchQuery(e.target.value)}
-          style={{ width: '100%', padding: '0.5rem', fontSize: '1rem', border: '3px inset #FFFFFF', marginBottom: '1rem', boxSizing: 'border-box', backgroundColor: '#FFFFFF', color: '#0000FF' }}
-        />
-        
-        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1.5rem', alignItems: 'flex-start' }}>
-          <div>
-            <div style={{ fontSize: '1rem', marginBottom: '0.25rem', color: '#FF0000' }}>Třída (Class):</div>
-            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
-              {classes.map(c => (
-                <button 
-                  key={c}
-                  onClick={() => toggleArrayParam('class', c)}
-                  style={{ 
-                    padding: '4px 8px', 
-                    border: selectedClasses.includes(c) ? '3px inset #FFFFFF' : '3px outset #FFFFFF', 
-                    cursor: 'pointer', 
-                    backgroundColor: selectedClasses.includes(c) ? '#a0a0a0' : '#e0e0e0', 
-                    color: selectedClasses.includes(c) ? '#FF0000' : '#0000FF', 
-                    textTransform: 'uppercase',
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '4px',
-                    fontWeight: 'bold',
-                    fontFamily: 'inherit'
-                  }}
-                >
-                  {c.replace('-', ' ')}
-                  {selectedClasses.includes(c) && <span style={{ color: '#FF0000' }}>✕</span>}
-                </button>
-              ))}
-            </div>
-          </div>
+      {/* Collapsible Search & Filters Toggle Button */}
+      <div style={{ marginBottom: '1rem' }}>
+        <button 
+          onClick={() => setIsFilterOpen(!isFilterOpen)}
+          style={{ 
+            width: '100%', 
+            padding: '0.5rem 0.75rem', 
+            backgroundColor: hasActiveFilters ? '#FFCC00' : '#D4D0C8', 
+            border: '3px outset #FFFFFF', 
+            cursor: 'pointer', 
+            color: '#0000FF', 
+            fontWeight: 'bold', 
+            fontSize: '0.95rem',
+            display: 'flex',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+            fontFamily: 'inherit'
+          }}
+        >
+          <span>
+            🔍 Hledat a filtrovat {hasActiveFilters ? `(Aktivní filtr: ${selectedClasses.length + selectedRarities.length + (q ? 1 : 0)})` : ''}
+          </span>
+          <span style={{ color: '#FF0000', fontSize: '0.9rem' }}>
+            {isFilterOpen ? '▲ SBALIT' : '▼ ROZBALIT'}
+          </span>
+        </button>
 
-          <div>
-            <div style={{ fontSize: '1rem', marginBottom: '0.25rem', color: '#FF0000' }}>Vzácnost:</div>
-            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
-              {rarities.map(r => (
-                <button 
-                  key={r}
-                  onClick={() => toggleArrayParam('rarity', r)}
-                  style={{ 
-                    padding: '4px 8px', 
-                    border: selectedRarities.includes(r) ? '3px inset #FFFFFF' : '3px outset #FFFFFF', 
-                    cursor: 'pointer', 
-                    backgroundColor: selectedRarities.includes(r) ? RARITY_COLORS[r] || '#ccc' : '#e0e0e0', 
-                    color: selectedRarities.includes(r) ? '#000000' : '#0000FF', 
-                    fontWeight: 'bold', 
-                    textTransform: 'uppercase',
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '4px',
-                    fontFamily: 'inherit'
-                  }}
-                >
-                  {r}
-                  {selectedRarities.includes(r) && <span style={{ color: '#FF0000' }}>✕</span>}
-                </button>
-              ))}
+        {/* Collapsed Drawer */}
+        {isFilterOpen && (
+          <div style={{ backgroundColor: '#C0C0C0', padding: '1rem', border: '3px inset #FFFFFF', borderTop: 'none', color: '#000000', fontWeight: 'bold' }}>
+            <input 
+              type="text" 
+              placeholder="Hledej kartu (jméno, pravidla, text)..." 
+              value={q}
+              onChange={(e) => updateSearchQuery(e.target.value)}
+              style={{ width: '100%', padding: '0.5rem', fontSize: '1rem', border: '3px inset #FFFFFF', marginBottom: '1rem', boxSizing: 'border-box', backgroundColor: '#FFFFFF', color: '#0000FF' }}
+            />
+            
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+              <div>
+                <div style={{ fontSize: '0.95rem', marginBottom: '0.25rem', color: '#FF0000' }}>Třída (Class):</div>
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem' }}>
+                  {classes.map(c => (
+                    <button 
+                      key={c}
+                      onClick={() => toggleArrayParam('class', c)}
+                      style={{ 
+                        padding: '3px 6px', 
+                        border: selectedClasses.includes(c) ? '3px inset #FFFFFF' : '3px outset #FFFFFF', 
+                        cursor: 'pointer', 
+                        backgroundColor: selectedClasses.includes(c) ? '#a0a0a0' : '#e0e0e0', 
+                        color: selectedClasses.includes(c) ? '#FF0000' : '#0000FF', 
+                        textTransform: 'uppercase',
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '4px',
+                        fontWeight: 'bold',
+                        fontSize: '0.85rem',
+                        fontFamily: 'inherit'
+                      }}
+                    >
+                      {c.replace('-', ' ')}
+                      {selectedClasses.includes(c) && <span style={{ color: '#FF0000' }}>✕</span>}
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              <div>
+                <div style={{ fontSize: '0.95rem', marginBottom: '0.25rem', color: '#FF0000' }}>Vzácnost:</div>
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem' }}>
+                  {rarities.map(r => (
+                    <button 
+                      key={r}
+                      onClick={() => toggleArrayParam('rarity', r)}
+                      style={{ 
+                        padding: '3px 6px', 
+                        border: selectedRarities.includes(r) ? '3px inset #FFFFFF' : '3px outset #FFFFFF', 
+                        cursor: 'pointer', 
+                        backgroundColor: selectedRarities.includes(r) ? RARITY_COLORS[r] || '#ccc' : '#e0e0e0', 
+                        color: selectedRarities.includes(r) ? '#000000' : '#0000FF', 
+                        fontWeight: 'bold', 
+                        textTransform: 'uppercase',
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '4px',
+                        fontSize: '0.85rem',
+                        fontFamily: 'inherit'
+                      }}
+                    >
+                      {r}
+                      {selectedRarities.includes(r) && <span style={{ color: '#FF0000' }}>✕</span>}
+                    </button>
+                  ))}
+                </div>
+              </div>
             </div>
-          </div>
-          
-          <div style={{ flexGrow: 1, display: 'flex', justifyContent: 'flex-end', alignItems: 'center', gap: '0.5rem', minWidth: '200px' }}>
-            <div style={{ fontSize: '1rem', color: '#FF0000' }}>Řadit podle:</div>
-            <select 
-              value={sort} 
-              onChange={(e) => updateSortParam('sort', e.target.value)}
-              style={{ padding: '4px', border: '3px inset #FFFFFF', backgroundColor: '#FFFFFF', color: '#0000FF', fontWeight: 'bold' }}
-            >
-              {sortOptions.map(opt => (
-                <option key={opt.value} value={opt.value}>{opt.label}</option>
-              ))}
-            </select>
-            <button 
-              onClick={() => updateSortParam('dir', dir === 'asc' ? 'desc' : 'asc')}
-              style={{ padding: '4px 8px', border: '3px outset #FFFFFF', cursor: 'pointer', backgroundColor: '#e0e0e0', color: '#FF0000', fontWeight: 'bold' }}
-              title={dir === 'asc' ? 'Vzestupně' : 'Sestupně'}
-            >
-              {dir === 'asc' ? '⬆' : '⬇'}
-            </button>
-          </div>
-        </div>
-        
-        {hasActiveFilters && (
-          <div style={{ width: '100%', marginTop: '1rem', borderTop: '2px dashed #0000FF', paddingTop: '0.75rem', textAlign: 'center' }}>
-            <button 
-              onClick={clearAllFilters}
-              style={{ padding: '0.5rem 1rem', border: '4px outset #FF0000', cursor: 'pointer', backgroundColor: '#FFCCCC', color: '#FF0000', fontSize: '1rem', fontWeight: 'bold' }}
-            >
-              !!! VYMAZAT VŠECHNY FILTRY !!!
-            </button>
+            
+            {hasActiveFilters && (
+              <div style={{ width: '100%', marginTop: '1rem', borderTop: '2px dashed #0000FF', paddingTop: '0.75rem', textAlign: 'center' }}>
+                <button 
+                  onClick={clearAllFilters}
+                  style={{ padding: '0.4rem 0.8rem', border: '3px outset #FF0000', cursor: 'pointer', backgroundColor: '#FFCCCC', color: '#FF0000', fontSize: '0.9rem', fontWeight: 'bold' }}
+                >
+                  !!! VYMAZAT VŠECHNY FILTRY !!!
+                </button>
+              </div>
+            )}
           </div>
         )}
-      </div>
-
-      <div style={{ marginBottom: '1rem', fontWeight: 'bold', color: '#008000', textAlign: 'center', fontSize: '1.2rem' }}>
-        Nalezeno: {getResultLabel(sortedCards.length)}
       </div>
 
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(140px, 1fr))', gap: '1.5rem' }}>

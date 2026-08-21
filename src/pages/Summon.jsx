@@ -5,6 +5,8 @@ import './Summon.css';
 
 const images = import.meta.glob('../../images/*', { eager: true, import: 'default' });
 
+import cardBackImg from '../assets/card_back.png';
+
 const RARITY_COLORS = {
   legendary: '#ffd700',
   rare: '#87cefa',
@@ -110,11 +112,18 @@ export default function Summon() {
 
       {summonState === 'idle' && (
         <div style={{ textAlign: 'center' }}>
+          <div style={{ marginBottom: '1.5rem', display: 'flex', justifyContent: 'center' }}>
+            <img 
+              src={cardBackImg} 
+              alt="Saw the Dust Game" 
+              style={{ width: '180px', height: 'auto', borderRadius: '8px', border: '4px solid #FF00FF', boxShadow: '0 8px 16px rgba(0,0,0,0.3)', transform: 'rotate(-2deg)' }} 
+            />
+          </div>
           <h1 className="blink" style={{ fontSize: 'clamp(2rem, 8vw, 3rem)', color: '#FF0000', textShadow: '4px 4px #FFFF00' }}>
             RITUÁL VYVOLÁNÍ
           </h1>
           <p style={{ fontSize: 'clamp(1rem, 5vw, 1.5rem)', fontWeight: 'bold', color: '#0000FF', maxWidth: '600px', margin: '1rem auto 2rem auto' }}>
-            Jste připraveni poměřit své síly s ostatními? Spojte svou mysl s vesmírnou energií.
+            Vyvolej náhodnou kartu ze <em>Saw the Dust Game</em> a spoj svou mysl s vesmírnou energií.
           </p>
           <button 
             onClick={startRitual}

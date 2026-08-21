@@ -75,7 +75,7 @@ export default function Card() {
       style={{ maxWidth: '500px', margin: '0 auto', paddingBottom: '3rem', userSelect: 'none', position: 'relative' }}
     >
       <div className="no-print" style={{ marginBottom: '1.5rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-        <Link to={backLink} style={{ textDecoration: 'none', color: '#666' }}>← Zpět do Kartotéky</Link>
+        <Link to={backLink} style={{ textDecoration: 'none', color: '#666', fontWeight: 'bold' }}>← Zpět do Kartotéky</Link>
         <div style={{ fontSize: '0.9rem', color: '#999' }}>
           {currentIndex !== -1 ? `${currentIndex + 1} / ${sortedCards.length}` : 'Mimo filtr'}
         </div>

@@ -6,29 +6,30 @@ import './Duel.css';
 
 const images = import.meta.glob('../../images/*', { eager: true, import: 'default' });
 
+import cardBackImg from '../assets/card_back.png';
+
 const CardBackStyle = {
   width: '350px',
+  maxWidth: '90vw',
   aspectRatio: '2.5/3.5',
-  background: 'radial-gradient(circle at center, #FFFDE7 0%, #FFD54F 50%, #FFB300 100%)',
-  border: '10px solid #FFF',
-  borderRadius: '15px',
+  borderRadius: '10px',
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
   justifyContent: 'center',
-  boxShadow: '0 0 40px #FFD700',
+  boxShadow: '0 20px 40px rgba(0,0,0,0.8)',
   position: 'relative',
-  overflow: 'hidden'
+  overflow: 'hidden',
+  backgroundColor: '#FFA726'
 };
 
 const CardBackContent = () => (
-  <>
-    <div style={{ position: 'absolute', top: '-50%', left: '-50%', width: '200%', height: '200%', background: 'repeating-conic-gradient(from 0deg, rgba(255,255,255,0.5) 0deg 15deg, transparent 15deg 30deg)', animation: 'spin 20s linear infinite' }}></div>
-    <div style={{ fontSize: '8rem', zIndex: 1, filter: 'drop-shadow(0 10px 10px rgba(0,0,0,0.5))', marginTop: '2rem' }}>🪵</div>
-    <div style={{ zIndex: 1, color: '#FFF', fontSize: '2rem', fontWeight: 'bold', fontFamily: 'Arial, sans-serif', textShadow: '2px 2px 4px #000', marginTop: 'auto', marginBottom: '2rem' }}>
-      Powered by <span style={{ fontFamily: 'Impact, sans-serif', fontSize: '2.8rem' }}>FAITH</span>
-    </div>
-  </>
+  <img 
+    src={cardBackImg} 
+    alt="Saw the Dust Game - Rub karty" 
+    draggable="false"
+    style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block', userSelect: 'none', WebkitUserSelect: 'none' }}
+  />
 );
 
 export default function Duel() {
@@ -108,11 +109,11 @@ export default function Duel() {
       <div className="duel-container">
         <div className="duel-bg" />
         <Link to="/" style={{ position: 'absolute', top: 10, left: 10, color: '#00FF00', fontSize: '1.5rem', zIndex: 100, textShadow: '2px 2px 0 #000', fontWeight: 'bold' }}>🔙 Zpět do bezpečí</Link>
-        <h1 className="saloon-title blink">CHRÁM PILIN</h1>
+        <h1 className="saloon-title blink">SAW THE DUST GAME<br/><span style={{ fontSize: '0.6em', color: '#FFFF00' }}>⚔️ SOUBOJ VÍRY ⚔️</span></h1>
         <div className="duel-setup-box">
           <h2 style={{ color: '#FF00FF', margin: 0, fontSize: '2.5rem', fontFamily: 'Impact', textShadow: '2px 2px #000' }}>VÍTEJ VE SVATYNI, HŘÍŠNÍKU.</h2>
           <p style={{ color: '#0000FF', fontWeight: 'bold', fontSize: '1.5rem', marginTop: '1rem', backgroundColor: '#FFFF00' }}>
-            S kým si jdeš vyřizovat účty? Na pravidlech zkoušky víry se domluvte předem.
+            S kým si jdeš vyřizovat účty? Na pravidlech zkoušky víry v <em>Saw the Dust Game</em> se domluvte předem.
           </p>
           <div style={{ margin: '2rem 0' }}>
             <label style={{ color: '#FF0000', fontWeight: '900', fontSize: '2rem', display: 'block', marginBottom: '1rem', textShadow: '2px 2px #FFF' }}>KOLIK MODLITEB DO SPASENÍ?</label>
