@@ -4,7 +4,7 @@ import data from '../../data/cards.json';
 import { filterAndSortCards } from '../utils/filterCards';
 import './Card.css';
 
-const images = import.meta.glob('../../images/*', { eager: true, import: 'default' });
+const images = import.meta.glob(['../../images/*', '../../images/full/*'], { eager: true, import: 'default' });
 
 export default function Card() {
   const { id } = useParams();

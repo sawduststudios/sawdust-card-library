@@ -16,11 +16,12 @@
       },
       "flavor": "Give it to us raw and w̶̹̺̟͈̩͎͓̱̣͉̖̺̻̞͐͋͊̍̓͒͆̌͆̊͘͝ w ŗ̸̛̤̱̝̤̲̇͒̿͑̂́́̕ r ǐ̶̧̫͙̝͈̭̠̮͖̠̮͖ g g̸̖͍̣̹͇̎̄͛̄͘͝͠ g g̶̨̩̱̗̮͈̼̪̩̲̹̰̬̭̀͐̏͑͋̕l̴̛̹̹̗̅̏̉̓͑͐͂͐̄̑͑͠ l i̴̜͎͎̰̟̊̽́̎̌̚ͅͅ i n̵̨̡̢͓̙̰͈̟͖̱̬̈́̓̃̊͆͗͋̄ n g̵̮̝̥̱̤̑̈̈̕ .",
       "rules": "PowerLevel 0; všichni vyložení Šimoni mají o 25 % vyšší účinnost svých statů.",
-      "image": "images/2.png",
+      "image": "images/full/2.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/2.webp"
     },
     {
       "id": "3",
@@ -37,11 +38,12 @@
       },
       "flavor": "You have to die, have to die, have to die Once, I used to love you, now I watch you fry",
       "rules": "PowerLevel 0; obětuje a nahradí již vyloženého Sawdust Priesta, +40 % faith pro všechny tvé vyložené karty",
-      "image": "images/3.png",
+      "image": "images/full/3.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/3.webp"
     },
     {
       "id": "4",
@@ -58,11 +60,12 @@
       },
       "flavor": "All the texts seem to agree I gotta eat Sawdu smažák from the floor",
       "rules": "PowerLevel 0; +1 PowerLevel pro všechny tvé vyložené pleby a heretiky",
-      "image": "images/4.png",
+      "image": "images/full/4.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/4.webp"
     },
     {
       "id": "5",
@@ -79,11 +82,12 @@
       },
       "flavor": "Posed! Posed! POSED!",
       "rules": "PowerLevel 1; vykládá se se zvoláním “posed!”. Hraje-li více oponentů pak ten, kdo řekne “posed!” jako poslední, odhalí všem na 3 vteřiny karty v ruce.",
-      "image": "images/5.png",
+      "image": "images/full/5.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/5.webp"
     },
     {
       "id": "6",
@@ -100,11 +104,12 @@
       },
       "flavor": "You must become master of all 4 instruments, only then can you face Plebaddon the Despoiler and restore the balance to the Sawniverse.",
       "rules": "PowerLevel 1; PowerLevel +4, máš-li vyložené 4 různé class karet. Pokud umře, je reinkarnován do nejbližšího vyloženého Vládi vpravo od hráče (obě karty jsou sloučeny do jedné se schopnostmi obou).",
-      "image": "images/6.png",
+      "image": "images/full/6.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/6.webp"
     },
     {
       "id": "7",
@@ -121,11 +126,12 @@
       },
       "flavor": "Different kind of goth girls :(",
       "rules": "PowerLevel 2; faith +10 % všem kartám ve hře",
-      "image": "images/7.png",
+      "image": "images/full/7.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/7.webp"
     },
     {
       "id": "8",
@@ -142,11 +148,12 @@
       },
       "flavor": "Po veškerém snažení Odcházíte spaseni",
       "rules": "PowerLevel 1; PowerLevel +1 až 3 (podle hodu kostkou) je-li vykládán jako poslední karta z ruky.",
-      "image": "images/8.png",
+      "image": "images/full/8.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/8.webp"
     },
     {
       "id": "9",
@@ -163,11 +170,12 @@
       },
       "flavor": "stahp",
       "rules": "PowerLevel 1; dokud je vyložen tak blokuje schopnostmi daný vztah mezi dvěma vybranými kartami.",
-      "image": "images/9.png",
+      "image": "images/full/9.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/9.webp"
     },
     {
       "id": "10",
@@ -184,11 +192,12 @@
       },
       "flavor": "Now gimme your eyes, chat, I would take your eyes, chat, its c-c-crazy, chat, not that i need the eyes chat",
       "rules": "PowerLevel 2; dokud zůstává vyložený tak ti ostatní musí ukázat každou kartu co si dobírají.",
-      "image": "images/10.png",
+      "image": "images/full/10.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/10.webp"
     },
     {
       "id": "11",
@@ -205,11 +214,12 @@
       },
       "flavor": "Brána není od slova brát.",
       "rules": "PowerLevel 1; na stůl je vyložen počet karet odpovídající počtu stále hrajících hráčů. Ty jsou po směru hry rozebrány.",
-      "image": "images/11.png",
+      "image": "images/full/11.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/11.webp"
     },
     {
       "id": "12",
@@ -226,11 +236,12 @@
       },
       "flavor": "Každý podle své víry, každému podle jeho hříchů.",
       "rules": "PowerLevel 1; po vyložení musí hráč s nejvíce kartami v ruce odevzdat jednu kartu hráči s nejméně kartami v ruce.",
-      "image": "images/12.png",
+      "image": "images/full/12.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/12.webp"
     },
     {
       "id": "13",
@@ -247,11 +258,12 @@
       },
       "flavor": "Where did he go?",
       "rules": "PowerLevel 2; vykládá se lícem dolů. Musí být otočen, pokud někdo řekne “Kotík” či “Ála”.",
-      "image": "images/13.png",
+      "image": "images/full/13.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/13.webp"
     },
     {
       "id": "14",
@@ -268,11 +280,12 @@
       },
       "flavor": "...occupied! occupied!",
       "rules": "PowerLevel 0; je-li v nepřátelském týmu kombo Vláďa+Kuba, mají po vyložení této karty ½ šanci na homigraci do tvého týmu. V případě více komb se snižuje šance na ⅓ per kombo.",
-      "image": "images/14.png",
+      "image": "images/full/14.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/14.webp"
     },
     {
       "id": "15",
@@ -289,11 +302,12 @@
       },
       "flavor": "15. 3. 2025. Výsledkem byla bezpodmínečná kapitulace Listnatých k rukám Jehličnatých. Několik miliard ohluchlých plebů stále brázdí zjizvenou krajinu Smíchova. Haag mlčí.",
       "rules": "PowerLevel 0; +1 PowerLevel všem vyloženým Vláďům a Matyům - 1 PowerLevel všem vyloženým Přemkům a Kubům",
-      "image": "images/15.png",
+      "image": "images/full/15.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/15.webp"
     },
     {
       "id": "16",
@@ -310,11 +324,12 @@
       },
       "flavor": "30. 6. 2025. Step-sons of Sawdust důstojně [citation needed] pohřbili Matyho, Kubu a Vláďu v Dejvické klubovně. Step-sons of Sawdust byli následně násilně rozpušteni a zakázáni ve 183 zemích světa na základě rezoluce Rady bezpečnosti OSN č. 67.",
       "rules": "PowerLevel 1; PowerLevel +1 za každého Vojtu/Pípa ve tvém týmu.",
-      "image": "images/16.png",
+      "image": "images/full/16.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/16.webp"
     },
     {
       "id": "17",
@@ -331,11 +346,12 @@
       },
       "flavor": "W<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><title>Despacito </title></head><body><h1>Despacito</h1><iframewidth=\"560\"height=\"315 \"src=\"https://www.youtube.com/embed/kJQP7kiw5Fk\"title=\"Despacito\"frameborder =\"0\"allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture- in-picture\"allowfullscreen></iframe></body></html>",
       "rules": "PowerLevel 1; při vyložení se může podívat na jakékoliv 3 jemu skryté karty.",
-      "image": "images/17.png",
+      "image": "images/full/17.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/17.webp"
     },
     {
       "id": "18",
@@ -352,11 +368,12 @@
       },
       "flavor": "no u",
       "rules": "PowerLevel 1; lze vyložit pouze mimo svůj tah. Útok na tvého SawdustPriesta je sveden na kartu útočícího vzezřením nejpodobnější útočícímu hráči.",
-      "image": "images/18.png",
+      "image": "images/full/18.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/18.webp"
     },
     {
       "id": "19",
@@ -373,11 +390,12 @@
       },
       "flavor": "Another fine addition to my collection!",
       "rules": "PowerLevel 1; +10% faith všem tvým kartám za každý oficiální SawdustMerch®, který vložíš na tuto kartu (z každého koncertu pouze jeden).",
-      "image": "images/19.png",
+      "image": "images/full/19.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/19.webp"
     },
     {
       "id": "20",
@@ -394,11 +412,12 @@
       },
       "flavor": "Oopsie, said Kuba watching his allies´ autopsy",
       "rules": "PowerLevel 3; lze vyložit pouze pokud je PowerLevel tvého týmu nejnižší o 3 a více.",
-      "image": "images/20.png",
+      "image": "images/full/20.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/20.webp"
     },
     {
       "id": "21",
@@ -415,11 +434,12 @@
       },
       "flavor": "Tu du tu tuu tuu tuu tuduturlutudu, tu tu duu duu, duuu duu, duuu duu, duu duuu, tu du tu tuu tuu tuu tururludu..",
       "rules": "PowerLevel 1; earsplitting kazoo blast má při vyložení šanci na blastnutí vybrané vyložené karty k hráči vpravo či vlevo dle úhlu blastu (jedna ku PowerLevel).",
-      "image": "images/21.png",
+      "image": "images/full/21.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/21.webp"
     },
     {
       "id": "22",
@@ -436,11 +456,12 @@
       },
       "flavor": "I once saw him kill a man with a plastic kazoo",
       "rules": "PowerLevel 1; PowerLevel +1 za každý vyložený artefakt zbraně (pila, cirkulárka, křovinořez apod.)",
-      "image": "images/22.png",
+      "image": "images/full/22.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/22.webp"
     },
     {
       "id": "23",
@@ -457,11 +478,12 @@
       },
       "flavor": "oh.... shit",
       "rules": "PowerLevel 1; po vyložení si pokaždé, co některý ze soupěřů řekne “shit”, lízni kartu z doplňovacího balíčku",
-      "image": "images/23.png",
+      "image": "images/full/23.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/23.webp"
     },
     {
       "id": "24",
@@ -478,11 +500,12 @@
       },
       "flavor": "Lately I’ve been praying at the shrine Hoping for Sawdust God to send a sign",
       "rules": "PowerLevel 0; PowerLevel +3 za každou tvou trojici Maty+Šimon+Vláďa. Musíš však při vyložení říct pět rýmů na “burn”.",
-      "image": "images/24.png",
+      "image": "images/full/24.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/24.webp"
     },
     {
       "id": "25",
@@ -499,11 +522,12 @@
       },
       "flavor": "I shall hide... until morning. Out of moves ser.",
       "rules": "PowerLevel 1; vylož lícem dolů k vybranému soupeři. Na začátku každého kola soupeře má ⅓ šanci na atentát na jeho kartu s nejvyšším faith, po úspěšném útoku se již odhalený vrací tobě. Dokud je skrytý tak se na něj uplatní pouze explicitní útok jiné karty.",
-      "image": "images/25.png",
+      "image": "images/full/25.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/25.webp"
     },
     {
       "id": "26",
@@ -520,11 +544,12 @@
       },
       "flavor": "God is dead. God remains dead. And heretics have killed him.",
       "rules": "PowerLevel 1; jeho nihilistická aura zastavuje speciální efekty vyložených karet celé další kolo.",
-      "image": "images/26.png",
+      "image": "images/full/26.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/26.webp"
     },
     {
       "id": "27",
@@ -541,11 +566,12 @@
       },
       "flavor": "We just wanted to make sure this card game is actually legally actionable by Nintendo.",
       "rules": "PowerLevel 1; PowerLevel +1, pokud jej vyložíš zároveň s Pokémon® kartičkou.",
-      "image": "images/27.png",
+      "image": "images/full/27.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/27.webp"
     },
     {
       "id": "28",
@@ -562,11 +588,12 @@
       },
       "flavor": "Its perversion is only matched by its persuasiveness to harty part.",
       "rules": "PowerLevel 1; PowerLevel +2, pokud není vyložena žádná žena* (ew) kazící homodanceparty. *primární postava karty",
-      "image": "images/28.png",
+      "image": "images/full/28.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/28.webp"
     },
     {
       "id": "29",
@@ -583,11 +610,12 @@
       },
       "flavor": "If you don't stop him now, you never will.",
       "rules": "PowerLevel 0; příští a každé další kolo se podívá na vrch odhazovacího balíčku a vezme na sebe schopnost této karty. Yes, they stack.",
-      "image": "images/29.png",
+      "image": "images/full/29.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/29.webp"
     },
     {
       "id": "30",
@@ -604,11 +632,12 @@
       },
       "flavor": "Nobody knows more about Sawdust Priests than I do, believe me. They come in, they have their ROBES, very dusty robes, probably the dustiest robes. And they say, ‘Sir, we must wipe out the heretics.’ Terrible. Very terrible. But Mr. Priest and I, we're very good FRIENDS, and I say, Mr. Priest you CANNOT import more Sawdust and he said 'retics must BURN. Not a nice guy. Open the SAWMILLS now, you crazy bastards!",
       "rules": null,
-      "image": "images/30.png",
+      "image": "images/full/30.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/30.webp"
     },
     {
       "id": "31",
@@ -625,11 +654,12 @@
       },
       "flavor": "Jakákoliv vyložená karta pod 30 % faith má ½ šanci být nemilosrdně shreknuta a proměněna v Sawdust (+1 Power Level pro Keepera za každou kartu) Jakákoliv vyložená karta pod 30 % faith má ½ šanci být nemilosrdně shreknuta a proměněna v Sawdust (+1 Power Level pro Keepera za každou kartu)",
       "rules": null,
-      "image": "images/31.png",
+      "image": "images/full/31.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/31.webp"
     },
     {
       "id": "32",
@@ -646,11 +676,12 @@
       },
       "flavor": "No tak řekněme paní Hrnčířová, je to milá holka, všechno… ale ona už tři roky po sobě bere šest set tisíc sekyrek za rok.",
       "rules": "PowerLevel 2; PowerLevel 4 pokud vykládající zažil ČSR/ČSSR/ČSFR",
-      "image": "images/32.png",
+      "image": "images/full/32.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/32.webp"
     },
     {
       "id": "33",
@@ -667,11 +698,12 @@
       },
       "flavor": "Secretly worships Potétos. 5 dia goes a long way.",
       "rules": "PowerLevel 1; snižuje faith libovolné vyložené kartě o 40 %. Vybraná karta se nedá změnit.",
-      "image": "images/33.png",
+      "image": "images/full/33.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/33.webp"
     },
     {
       "id": "34",
@@ -688,11 +720,12 @@
       },
       "flavor": "From the moment I understood the weakness of my flesh, it disgusted me. Trees too. Beep beep.",
       "rules": "PowerLevel 1; PowerLevel +2, je-li vyložen vedle displaye s hýbajícím se Vojtou. Je-li tento DigiVojta skryt (nikoliv násilím), může být takto i ukraden.",
-      "image": "images/34.png",
+      "image": "images/full/34.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/34.webp"
     },
     {
       "id": "35",
@@ -709,11 +742,12 @@
       },
       "flavor": "He guards Him. We guard him. Is that blood?",
       "rules": "PowerLevel 1; Sawdust Priesti vyložení před hráčem jsou chránění touto kartou a nemohou být odebráni dříve než tato karta.",
-      "image": "images/35.png",
+      "image": "images/full/35.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/35.webp"
     },
     {
       "id": "36",
@@ -730,11 +764,12 @@
       },
       "flavor": "A single jar of ChockoDuo™ can sustain up to 5 regiments of Saw Fanatics for a fortnight.",
       "rules": "PowerLevel 1; všichni před tebou vyložení Sawdust Priesti získávání +1 PowerLevel.",
-      "image": "images/36.png",
+      "image": "images/full/36.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/36.webp"
     },
     {
       "id": "37",
@@ -751,11 +786,12 @@
       },
       "flavor": "I'm simply saying that life, uh... finds a way.",
       "rules": "PowerLevel 1; při vyložení smí hráč vybrat kartu v ruce protivníka, který ji musí všem ukázat; je-li ukázaná karta Sawdust Priest, pak je lapen Maty Sproutem a může být vyměněna za Maty Sprouts.",
-      "image": "images/37.png",
+      "image": "images/full/37.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/37.webp"
     },
     {
       "id": "38",
@@ -772,11 +808,12 @@
       },
       "flavor": "He is the master of Dustkind by the will of the SawdustGod, and master of all plebs by the might of his inexhaustible kazoos. He is the master of Dustkind by the will of the SawdustGod, and master of all plebs by the might of his inexhaustible kazoos.",
       "rules": "Splyne s vybraným Sawdust Priestem v jednu kartu, které přidá PowerLevel +4, ale znemožní její ostatní schopnosti. Pokud klesne průměrný faith hráče pod 50 %, trůn i priest umírají. Možné takto zachránit Sawdust Priesta před jistou smrtí i mimo svůj tah. Splyne s vybraným Sawdust Priestem v jednu kartu, které přidá PowerLevel +4, ale znemožní její ostatní schopnosti. Pokud klesne průměrný faith hráče pod 50 %, trůn i priest umírají. Možné takto zachránit Sawdust Priesta před jistou smrtí i mimo svůj tah.",
-      "image": "images/38.png",
+      "image": "images/full/38.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/38.webp"
     },
     {
       "id": "39",
@@ -793,11 +830,12 @@
       },
       "flavor": "Oh my god, what is that thing?! Oh my god, what is that thing?!",
       "rules": "PowerLevel 1; PowerLevel +1 za každou soupeřovu kartu pod 15% faith. Je-li podepsána každým členem kapely, nejde zabít. PowerLevel 1; PowerLevel +1 za každou soupeřovu kartu pod 15% faith. Je-li podepsána každým členem kapely, nejde zabít.",
-      "image": "images/39.png",
+      "image": "images/full/39.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/39.webp"
     },
     {
       "id": "40",
@@ -814,11 +852,12 @@
       },
       "flavor": "No, it most certainly can NOT has cheezburger! mňau",
       "rules": "PowerLevel 2; před a za každou větou musíš říct “ ”, jinak ti uteče k hráči co tě načapal nemňoukajícího.",
-      "image": "images/40.png",
+      "image": "images/full/40.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/40.webp"
     },
     {
       "id": "41",
@@ -835,11 +874,12 @@
       },
       "flavor": "Ages like a fine wine. Unlike those who hear it.",
       "rules": "PowerLevel 1; +25% faith všem Přemkům, Vláďům a Vojtům.",
-      "image": "images/41.png",
+      "image": "images/full/41.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/41.webp"
     },
     {
       "id": "42",
@@ -856,11 +896,12 @@
       },
       "flavor": "Řízni, řízni, řízni, ať to krásně hyzdí Řízni, řízni, řízni, ať to má ten schrekt",
       "rules": "PowerLevel 1; pokud se do ní při vyložení opřou tvé dvě již vyložené postavy se společným attack nad 15, mohou shreknout jinou vyloženou kartu s ≤ 7 HP.",
-      "image": "images/42.png",
+      "image": "images/full/42.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/42.webp"
     },
     {
       "id": "43",
@@ -877,11 +918,12 @@
       },
       "flavor": "A thousand cuts, a thousand screams, a thousand pyres and shattered dreams, we’ll watch them burn until the night is gone.",
       "rules": "PowerLevel 1; všichni hráči s vyloženým heretikem si dají čimčong (musí být alespoň 2). Heretik loosera shoří.",
-      "image": "images/43.png",
+      "image": "images/full/43.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/43.webp"
     },
     {
       "id": "44",
@@ -898,11 +940,12 @@
       },
       "flavor": "Wolololo",
       "rules": "PowerLevel 0; při vyložení můžeš přetáhnout cizího vyloženého pleba, máš-li v týmu Priesta s faith nad 95%.",
-      "image": "images/44.png",
+      "image": "images/full/44.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/44.webp"
     },
     {
       "id": "45",
@@ -919,11 +962,12 @@
       },
       "flavor": "If the effect lasts for longer than 6 hours please contact your local exorcist.",
       "rules": "PowerLevel 2; pokud je vyložen pod stůl, je ochráněn před všemi negativními efekty.",
-      "image": "images/45.png",
+      "image": "images/full/45.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/45.webp"
     },
     {
       "id": "46",
@@ -940,11 +984,12 @@
       },
       "flavor": "Please sir, no more like n' subsribing, there's blood everywhere!",
       "rules": "PowerLevel 1; PowerLevel +2, máš-li na svém těle podpis Vládi.",
-      "image": "images/46.png",
+      "image": "images/full/46.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/46.webp"
     },
     {
       "id": "47",
@@ -961,11 +1006,12 @@
       },
       "flavor": "Furt o něm jen zpívat na zemi ho líbat Jen Piliny vzývat nikdy to neskrývat",
       "rules": "PowerLevel 3; lze vyložit pouze pokud je ve tvém alespoň tříčlenném týmu průměrný faith nad 80 %.",
-      "image": "images/47.png",
+      "image": "images/full/47.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/47.webp"
     },
     {
       "id": "48",
@@ -982,11 +1028,12 @@
       },
       "flavor": "Na opravdu malá polena.",
       "rules": "PowerLevel 0; všechny tvé vyložené postavy s méně než 2 HP získávají +1 PowerLevel.",
-      "image": "images/48.png",
+      "image": "images/full/48.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/48.webp"
     },
     {
       "id": "49",
@@ -1003,11 +1050,12 @@
       },
       "flavor": "It costs four hundred thousand dollars to fire this weapon... for twelve seconds.",
       "rules": "PowerLevel 0; PowerLevel +1 za každých 10 attack ve tvém týmu (max. 4).",
-      "image": "images/49.png",
+      "image": "images/full/49.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/49.webp"
     },
     {
       "id": "50",
@@ -1024,11 +1072,12 @@
       },
       "flavor": "Za cenu jednoho půl kafe turka si užiješ mnoho hodin zábavy!",
       "rules": "PowerLevel 0; faith +5% pro tvůj tým.",
-      "image": "images/50.png",
+      "image": "images/full/50.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/50.webp"
     },
     {
       "id": "51",
@@ -1045,11 +1094,12 @@
       },
       "flavor": "from the creators of ReeQueen",
       "rules": "PowerLevel 0; PowerLevel +1 pro každého tvého Šimona a Vláďu. Musí být vyložena jako první karta týmu.",
-      "image": "images/51.png",
+      "image": "images/full/51.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/51.webp"
     },
     {
       "id": "52",
@@ -1066,11 +1116,12 @@
       },
       "flavor": "Slyším Boha ze hříšníků skřeku Piluju proti proudu vstříc poslednímu soudu",
       "rules": "PowerLevel 1; v‌šechny vyložené karty třídy pleb se posouvají proti směru hry před své nové pány.",
-      "image": "images/52.png",
+      "image": "images/full/52.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/52.webp"
     },
     {
       "id": "53",
@@ -1087,11 +1138,12 @@
       },
       "flavor": "Řekni kam víru šířit mám, na misii se tam vydám. Sawdustovo slovo znám, z plebů borce udělám.",
       "rules": "PowerLevel 3 mínus počet lidí, co tě od vyložení do konce hry porazí v páce (nesmíš odmítnout). Pod 0 shamefully umírá. and VratkovBoy",
-      "image": "images/53.png",
+      "image": "images/full/53.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/53.webp"
     },
     {
       "id": "54",
@@ -1108,11 +1160,12 @@
       },
       "flavor": "Zážitek nemusí být pozitivní. Stačí, když je silný.",
       "rules": "PowerLevel 2; vyložený Lubí může zastavit spešl schopnost jiné karty během tahu soupeře, je-li její faith více než 60%. Lubí má ½ šanci na úspěch; v případě neúspechu je zároveň odebrán ze hry.",
-      "image": "images/54.png",
+      "image": "images/full/54.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/54.webp"
     },
     {
       "id": "55",
@@ -1129,11 +1182,12 @@
       },
       "flavor": "Když už pravou víru znáš za námi se brzy dáš Budeš zpívat o pile a trestat provinilé",
       "rules": "PowerLevel 1; k okamžiku vyložení třetí a každé další karty třídy Sawdust Fans, mají všichni vyložení heretici ⅓ šanci na odebrání.",
-      "image": "images/55.png",
+      "image": "images/full/55.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/55.webp"
     },
     {
       "id": "56",
@@ -1150,11 +1204,12 @@
       },
       "flavor": "Some of you may die, but it is a sacrifice I am willing to make.",
       "rules": "PowerLevel 3; každé kolo smí vyslat na útok jednu svou již vyloženou postavu proti cizí (útok útočícího musí být vyšší než obrana bránícího). Podle hodu kostkou zemře útočící (1-2), oba (3-4) či bránící (5-6).",
-      "image": "images/56.png",
+      "image": "images/full/56.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/56.webp"
     },
     {
       "id": "57",
@@ -1171,11 +1226,12 @@
       },
       "flavor": "I´s a war veteran... spare me a crown?",
       "rules": "PowerLevel 1; PowerLevel 2 pokud je vyložen ve dnech zkoušky/koncertu SoS",
-      "image": "images/57.png",
+      "image": "images/full/57.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/57.webp"
     },
     {
       "id": "58",
@@ -1192,11 +1248,12 @@
       },
       "flavor": "I´s a war veteran... spare me a crown?",
       "rules": "PowerLevel 1; PowerLevel 2 pokud je vyložen ve dnech zkoušky/koncertu SoS",
-      "image": "images/58.png",
+      "image": "images/full/58.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/58.webp"
     },
     {
       "id": "59",
@@ -1213,11 +1270,12 @@
       },
       "flavor": "I´s a war veteran... spare me a crown?",
       "rules": "PowerLevel 1; PowerLevel 2 pokud je vyložen ve dnech zkoušky/koncertu SoS",
-      "image": "images/59.png",
+      "image": "images/full/59.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/59.webp"
     },
     {
       "id": "60",
@@ -1234,11 +1292,12 @@
       },
       "flavor": "I´s a war veteran... spare me a crown?",
       "rules": "PowerLevel 1; PowerLevel 2 pokud je vyložen ve dnech zkoušky/koncertu SoS",
-      "image": "images/60.png",
+      "image": "images/full/60.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/60.webp"
     },
     {
       "id": "61",
@@ -1255,11 +1314,12 @@
       },
       "flavor": "Yes you are fucked. Shit out of luck. Now tuplák's here and its mok you will suck.",
       "rules": "PowerLevel 2; zdvojnásobuje účinnost všech efektů snižujících víru.",
-      "image": "images/61.png",
+      "image": "images/full/61.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/61.webp"
     },
     {
       "id": "62",
@@ -1276,11 +1336,12 @@
       },
       "flavor": "After a long journey, every vehicle deserves a happy ending.",
       "rules": "PowerLevel 2; po vyložení karta automaticky putuje před hráče s nejméně equipnutými artikly oblečení (při plichtě první kdo jej dosáhl).",
-      "image": "images/62.png",
+      "image": "images/full/62.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/62.webp"
     },
     {
       "id": "63",
@@ -1297,11 +1358,12 @@
       },
       "flavor": "Prýgl bo krýgl, šecko najdó Cajzli cestó šalinó.",
       "rules": "PowerLevel 1; opustí tě pro tým s více artefakty než máš ty. Možný counter šalinkartou, tu respektůje.",
-      "image": "images/63.png",
+      "image": "images/full/63.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/63.webp"
     },
     {
       "id": "64",
@@ -1318,11 +1380,12 @@
       },
       "flavor": "Naše brikety jsou vyráběny čistě z ekologických pilin, vznikajících při pořezu dřevní kulatiny, na šnekovém lisu. - Plebům 67,42",
       "rules": "PowerLevel 1; každá tvá karta s faith alespoň 80 % je osvícena a získává +5 attack, defense a HP.",
-      "image": "images/64.png",
+      "image": "images/full/64.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/64.webp"
     },
     {
       "id": "65",
@@ -1339,11 +1402,12 @@
       },
       "flavor": "Gold mines are overrated.",
       "rules": "PowerLevel 1; každé kolo co je tato karta vyložena máš ⅓ šanci na dolíznutí karty z doplňovacího balíčku.",
-      "image": "images/65.png",
+      "image": "images/full/65.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/65.webp"
     },
     {
       "id": "66",
@@ -1360,11 +1424,12 @@
       },
       "flavor": null,
       "rules": null,
-      "image": "images/66.png",
+      "image": "images/full/66.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/66.webp"
     },
     {
       "id": "67",
@@ -1381,11 +1446,12 @@
       },
       "flavor": "Most agree that kazoos eventually got simpler and much more elegant over time. Definitely an improvement, yes yes. - a non-threatened musicologist",
       "rules": "PowerLevel 2; po vyložení vydrží maximálně 30 sekund bez zvuků “epic sax guy”, jinak umírá.",
-      "image": "images/67.png",
+      "image": "images/full/67.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/67.webp"
     },
     {
       "id": "68",
@@ -1402,11 +1468,12 @@
       },
       "flavor": "Sawdust on me' cheek like I had last week I should stay meek 'cause wood is cheap",
       "rules": "PowerLevel 3 mínus celkový počet vyložených heretiků (min. 1).",
-      "image": "images/68.png",
+      "image": "images/full/68.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/68.webp"
     },
     {
       "id": "69",
@@ -1423,11 +1490,12 @@
       },
       "flavor": "Sawdust on me' cheek like I had last week I should stay meek 'cause wood is cheap",
       "rules": "PowerLevel 5 mínus celkový počet vyložených heretiků (min. 1).",
-      "image": "images/69.png",
+      "image": "images/full/69.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/69.webp"
     },
     {
       "id": "70",
@@ -1444,11 +1512,12 @@
       },
       "flavor": "Will jam your saw, your gut, and your mind.",
       "rules": "PowerLevel 0; faith -5 % pro všechny karty ve hře.",
-      "image": "images/70.png",
+      "image": "images/full/70.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/70.webp"
     },
     {
       "id": "71",
@@ -1465,11 +1534,12 @@
       },
       "flavor": "Hardly anything is evil, but most things are hungry. He's both.",
       "rules": "PowerLevel 4; na začátku každého tvého kola se pokusí pozřít tvoji vyloženou kartu s nejmenším defense (šance ⅓). Po každém pozření apetit roste (½, vždy).",
-      "image": "images/71.png",
+      "image": "images/full/71.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/71.webp"
     },
     {
       "id": "72",
@@ -1486,11 +1556,12 @@
       },
       "flavor": "There is no curse in Plebish, Entish, or the tongues of Men for this perversion.",
       "rules": "PowerLevel 0; ale: PowerLevel +1 všem kartám s faith ≤ 25%, PowerLevel +2 všem kartám s faith ≤ 0 %.",
-      "image": "images/72.png",
+      "image": "images/full/72.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/72.webp"
     },
     {
       "id": "73",
@@ -1507,11 +1578,12 @@
       },
       "flavor": "Hey, no tongues, not legally binding... that's better. *gotta do the kiss tho",
       "rules": "PowerLevel 0; vyložením této karty uzavřeš pakt o neútočení s vybraným souhlasícím soupeřem*, na základě kterého na vás nedopadají negativní schopnosti karet toho druhého dokud je vyložena.",
-      "image": "images/73.png",
+      "image": "images/full/73.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/73.webp"
     },
     {
       "id": "74",
@@ -1528,11 +1600,12 @@
       },
       "flavor": null,
       "rules": "賢者ダース・プレイガスの悲劇を聞いたことがあります か？ないでしょうね。ジェダイがあなたに語るような話 ではありませんから。 PowerLevel 1;  意味不明な言葉 ( ˶ > < ˶ ) ランダムな 単語 ◝ ˚ ˃̣̣̥ ⌓ ˂̣̣̥ )",
-      "image": "images/74.png",
+      "image": "images/full/74.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/74.webp"
     },
     {
       "id": "75",
@@ -1549,11 +1622,12 @@
       },
       "flavor": "This is 10 % saw, 20 % dust, 15 % consecrated ways to combust, 5 % leisure, 50 % faith and a 100 % reason to remember to pray",
       "rules": "PowerLevel 0; za každých 50 % faith všech tvých vyložených Šimonů přičti +1 PowerLevel každému tvému vyloženému Vojtovi.",
-      "image": "images/75.png",
+      "image": "images/full/75.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/75.webp"
     },
     {
       "id": "76",
@@ -1570,11 +1644,12 @@
       },
       "flavor": "Fool, was the kinda priest that all the 'retics want deceased Now I'm missing from the fight, asking if it ever was right",
       "rules": "PowerLevel 1; všechny vyložené karty získávají +25 % faith; pokud přesáhnou 100 %, získávají též PowerLevel +1.",
-      "image": "images/76.png",
+      "image": "images/full/76.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/76.webp"
     },
     {
       "id": "77",
@@ -1591,11 +1666,12 @@
       },
       "flavor": "Dust, the kind you bow to if you want to be blessed Just so you know, you can accept faith in Him at GVPFest",
       "rules": "PowerLevel 0; PowerLevel +1 za každou tvou vyloženou postavu, co chodila na GVP.",
-      "image": "images/77.png",
+      "image": "images/full/77.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/77.webp"
     },
     {
       "id": "78",
@@ -1612,11 +1688,12 @@
       },
       "flavor": "A teď když Sawdust to ví tak se to Pilinám hnusí, teď inkvizice jí hledá a pak upálí jí",
       "rules": "PowerLevel 0; po vyložení můžeš vzít jinou vyloženou kartu zpět do ruky. Faith -40% pro tvoje zbývající, opuštěné, zrazené karty.",
-      "image": "images/78.png",
+      "image": "images/full/78.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/78.webp"
     },
     {
       "id": "79",
@@ -1633,11 +1710,12 @@
       },
       "flavor": "With his trusty EarrapeProtector5000™, his experience of Sons of Sawdust concert will be pleasantly neutral.",
       "rules": "PowerLevel 2; imunní vůči všem negativním i pozitivním vlivům.",
-      "image": "images/79.png",
+      "image": "images/full/79.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/79.webp"
     },
     {
       "id": "80",
@@ -1654,11 +1732,12 @@
       },
       "flavor": "Dobře si pamatuj, vše co tvrdím Nebo tě už brzy naprosto pošrektím",
       "rules": "PowerLevel = počet tvých karet, které ti byly a budou během trvání hry odebrány (z ruky či stolu).",
-      "image": "images/80.png",
+      "image": "images/full/80.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/80.webp"
     },
     {
       "id": "81",
@@ -1675,11 +1754,12 @@
       },
       "flavor": "20. 12. 2022. Více než dvanáct odvážlivců stanulo bok po boku Sons of Sawdust a ukázalo, že laťka je fluidní. We're still looking for survivors.",
       "rules": "PowerLevel 0; PowerLevel +1 pro každou postavu, co není Vláďa, Šimon, Kuba, Přemek, Maty, Píp či Vojta.",
-      "image": "images/81.png",
+      "image": "images/full/81.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/81.webp"
     },
     {
       "id": "82",
@@ -1696,11 +1776,12 @@
       },
       "flavor": null,
       "rules": "při vyložení musí být potřísněn něčím slizkým či lepkavým.",
-      "image": "images/82.png",
+      "image": "images/full/82.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/82.webp"
     },
     {
       "id": "83",
@@ -1717,11 +1798,12 @@
       },
       "flavor": "The Codex Zhidenitz not support this action",
       "rules": "PowerLevel 0; Lze vyložit pouze před hráče s nejvíce vyloženými heretiky. Každé kolo jednoho shrekne. Po vykosení zásob se přesouvá k dalšímu hráči s nejvíce heretiky (nejsilnějším pokud pat).",
-      "image": "images/83.png",
+      "image": "images/full/83.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/83.webp"
     },
     {
       "id": "84",
@@ -1738,11 +1820,12 @@
       },
       "flavor": "I know I should bow down to wood 'cause in the end it's more than just tree matter",
       "rules": "PowerLevel 1; PowerLevel +2, je-li jeho faith nad 60% a dalších +2 je-li nad 80%",
-      "image": "images/84.png",
+      "image": "images/full/84.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/84.webp"
     },
     {
       "id": "85",
@@ -1759,11 +1842,12 @@
       },
       "flavor": "It doesn't break, jam, or overheat. It's so easy, even a child can use it; and they do.",
       "rules": "PowerLevel 0; PowerLevel +1 všem vyloženým kartám třídy pleb s base PowerLevel 1 či 0.",
-      "image": "images/85.png",
+      "image": "images/full/85.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/85.webp"
     },
     {
       "id": "86",
@@ -1780,11 +1864,12 @@
       },
       "flavor": "Sorry, girl, but you missed out, well, tough luck, that God's mad now Your soul needs some good ol' cleanse, and this is how your story ends",
       "rules": "PowerLevel 1; Maty si při vyložení hodí kostkou a: 1 - Maty odebere vlastní vyloženou kartu.      4 - Maty má PowerLevel 2. 2 - Maty je vyložen před nejslabšího soupeře. 5 - Maty má PowerLevel 3. 3 - Maty obdrží cvnknutí do nosu and/or     6 - Maty vykládá dodatečnou balls.                                                          kartu z dobíracího balíku.",
-      "image": "images/86.png",
+      "image": "images/full/86.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/86.webp"
     },
     {
       "id": "87",
@@ -1801,11 +1886,12 @@
       },
       "flavor": "Mmm, když jsem potom zahlíd, baby, slevy v Husquarně, koupil jsem si motorovku, protože...",
       "rules": "PowerLevel 1; při vyložení můžeš jakoukoliv svou vyloženou kartu nahradit kartou z dobíracího balíčku.",
-      "image": "images/87.png",
+      "image": "images/full/87.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/87.webp"
     },
     {
       "id": "88",
@@ -1822,11 +1908,12 @@
       },
       "flavor": "M̴̡̨̡̪̭͓̣̘̟͉̆͌͊͗͂̌̽͑̅́͆̈́̚o̷̧̻̹̳̜͍͖̽͑̃̂̕ȏ̴̧̰͕̘͕̯͚͜ǫ̴̨̛̛̗͈̻͙̻̠̜̻̳̙͔̭̬̮̗͈̻͙̻̠̜̻̳̙͔̭̬̮̀̈́̍̈̊͊̂̽̔͐̈́̂͋̂͋͝o̷̜̬͇̮̠͌̊͊͋̾͌̓͘͝ oo MOOoOOOooOOO",
       "rules": "PowerLevel 2; znetvořený vzhled donutí i nejstatečnější bojovníky k úprku; pokud se na tebe po vyložení a poučení podívá jiný hráč, ztrácí náhodnou kartu z ruky.",
-      "image": "images/88.png",
+      "image": "images/full/88.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/88.webp"
     },
     {
       "id": "89",
@@ -1843,11 +1930,12 @@
       },
       "flavor": "Na to potžebujete úplnej jinej lepík na formuláři tsži bé, jóó? Kvůli vám tady padáme na držku!",
       "rules": "PowerLevel 2; snižuje faith karet vybraného soupěře o 20%. Pokud však některá soupeřova karta dosáhne 100% a víc faith, zničí Milušku.",
-      "image": "images/89.png",
+      "image": "images/full/89.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/89.webp"
     },
     {
       "id": "90",
@@ -1864,11 +1952,12 @@
       },
       "flavor": "Jen škoda že v zemi této uctíváte jen poťéto I se Sawdustem problém vyřešit jde po dobrém",
       "rules": "PowerLevel 0; po vyložení získávají tvoji vyložení heretici +1 PowerLevel, další kolo pak +2. Třetí kolo tento bonus ztrácejí a mají ½ šanci na smrt. Možné vyložit i před jiného hráče.",
-      "image": "images/90.png",
+      "image": "images/full/90.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/90.webp"
     },
     {
       "id": "91",
@@ -1885,11 +1974,12 @@
       },
       "flavor": "Avez-vous déjà entendu la tragédie de Dark Plagueis le Sage? Je ne pensais pas. Ce n'est pas une histoire que les Jedi vous raconteraient.",
       "rules": "PowerLevel 2; ⅙ šance, že ti uteče pokaždé, když na tebe někdo útočí kartou, a to k hráči sedícímu nejdále od útočícího.",
-      "image": "images/91.png",
+      "image": "images/full/91.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/91.webp"
     },
     {
       "id": "92",
@@ -1906,11 +1996,12 @@
       },
       "flavor": "A man of culture.",
       "rules": "PowerLevel 1; PowerLevel +1, pokud vykládající jel dnes v autě (-1 pokud to byl hybrid/EV). Možný counter sanitkou.",
-      "image": "images/92.png",
+      "image": "images/full/92.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/92.webp"
     },
     {
       "id": "93",
@@ -1927,11 +2018,12 @@
       },
       "flavor": "A mark of a true beleiver. Or a pee-covered unconscious casualty near the stage.",
       "rules": "PowerLevel 0; PowerLevel +2 všem Sawdust fans, +1 všem plebům, -1 všem heretikům",
-      "image": "images/93.png",
+      "image": "images/full/93.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/93.webp"
     },
     {
       "id": "94",
@@ -1948,11 +2040,12 @@
       },
       "flavor": "Heretics beating up plebs for protection money: very naughty. Plebs's not paying their protection money: exactly as naughty.",
       "rules": "PowerLevel 4; otevřeně obdaruje každého z protivníků jednou kartou z doplň. balíčku.",
-      "image": "images/94.png",
+      "image": "images/full/94.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/94.webp"
     },
     {
       "id": "95",
@@ -1969,11 +2062,12 @@
       },
       "flavor": "I´m sorry boy.",
       "rules": "PowerLevel 1; při vyložení můžeš humánně odebrat jednu svou vyloženou kartu na odhazovací balíček (Přemky dva).",
-      "image": "images/95.png",
+      "image": "images/full/95.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/95.webp"
     },
     {
       "id": "96",
@@ -1990,11 +2084,12 @@
       },
       "flavor": "Poté Sawdust God prozřel, že Pilina není nikdy jen jedna, Pilin je vždy více. Piliny se k sobě druží, lepí, vzájemně se podpírají, Piliny z různých stromů stále jedněmi Pilinami jsou. Takto i Pilinnoví věřící.",
       "rules": "PowerLevel 1; PowerLevel +2, je-li tato karta podepsána real Simonem.",
-      "image": "images/96.png",
+      "image": "images/full/96.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/96.webp"
     },
     {
       "id": "97",
@@ -2011,11 +2106,12 @@
       },
       "flavor": "Vpředu mše, vzadu party.",
       "rules": "PowerLevel 0; +1 PowerLevel tvým vyloženým Sawdust Priestům, další +1 je-li priest Kuba.",
-      "image": "images/97.png",
+      "image": "images/full/97.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/97.webp"
     },
     {
       "id": "98",
@@ -2032,11 +2128,12 @@
       },
       "flavor": "Toss some Dust to your Sawtcher, or eat exkrementy, or eat exkrementy, or eat exkrementy.",
       "rules": "PowerLevel 1; +1 PowerLevel za každého tvého vyloženého Šimona/Vláďu, -3 PowerLevel za každého tvého vyloženého Přemka.",
-      "image": "images/98.png",
+      "image": "images/full/98.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/98.webp"
     },
     {
       "id": "99",
@@ -2053,11 +2150,12 @@
       },
       "flavor": "Nothing personnel, kiddo.",
       "rules": "PowerLevel 1; chrání tvé vyložené Šimony před efekty snižujícími faith či PowerLevel.",
-      "image": "images/99.png",
+      "image": "images/full/99.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/99.webp"
     },
     {
       "id": "100",
@@ -2074,11 +2172,12 @@
       },
       "flavor": "RUPTURE DEEZ NUTS",
       "rules": "PowerLevel 1; PowerLevel +1 za každé další kolo, kdy zůstává vyložen, ale pokaždé",
-      "image": "images/100.png",
+      "image": "images/full/100.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/100.webp"
     },
     {
       "id": "101",
@@ -2095,11 +2194,12 @@
       },
       "flavor": null,
       "rules": "⅓ ⅓ ⅓",
-      "image": "images/101.png",
+      "image": "images/full/101.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/101.webp"
     },
     {
       "id": "102",
@@ -2116,11 +2216,12 @@
       },
       "flavor": "Neither grower nor a shower.",
       "rules": "PowerLevel 0; PowerLevel +1 za každých 6°C venkovní teploty nad/pod 8,8°C. No judgies.",
-      "image": "images/102.png",
+      "image": "images/full/102.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/102.webp"
     },
     {
       "id": "103",
@@ -2137,11 +2238,12 @@
       },
       "flavor": "It can't be bargained with. It can't be reasoned with. It doesn't feel pity, or remorse, or fear.",
       "rules": "PowerLevel 2; PowerLevel klesá o jedna, pokud je posypán sawdustem.",
-      "image": "images/103.png",
+      "image": "images/full/103.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/103.webp"
     },
     {
       "id": "104",
@@ -2158,11 +2260,12 @@
       },
       "flavor": "In this time, the most precious substance in the Universe is Sawdust. Sawdust extends life. Sawdust expands consciousness. Sawdust is vital to space travel. for he IS the Kwisawz Hadustrach",
       "rules": "PowerLevel 1; +1, je-li posypán kořením; +3, je-li jeho víra nad 100% ( )",
-      "image": "images/104.png",
+      "image": "images/full/104.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/104.webp"
     },
     {
       "id": "105",
@@ -2179,11 +2282,12 @@
       },
       "flavor": "I fear no man. But that thing... it scares me.",
       "rules": "PowerLevel 3; nelze vyložit dříve, než jsou ve hře alespoň 4 nepřátelské karty. Wouldn't be fair.",
-      "image": "images/105.png",
+      "image": "images/full/105.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/105.webp"
     },
     {
       "id": "106",
@@ -2200,11 +2304,12 @@
       },
       "flavor": "Hey there, heretic, I still dream of when we’re through, of a world where only Dust remains, and every soul is true",
       "rules": "PowerLevel 1; při vyložení zvolíš hráče, který v příštím kole stojí. Možný counter KongStrongem™ či KongStrongem.",
-      "image": "images/106.png",
+      "image": "images/full/106.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/106.webp"
     },
     {
       "id": "107",
@@ -2221,11 +2326,12 @@
       },
       "flavor": "Jsi cirkulárka kterou dřevo obrábím. Jsi kus železa kterým Sawdust vytvářím. Bez tebe není síla kmeny štěpící. Jsi Jeho dílo a já v Jeho věřící.",
       "rules": "PowerLevel 0; zvedá PowerLevel jiné vyložené karty o 2, má však ½ šanci, že danou kartu rozshrekne.",
-      "image": "images/107.png",
+      "image": "images/full/107.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/107.webp"
     },
     {
       "id": "108",
@@ -2242,11 +2348,12 @@
       },
       "flavor": "Pretty harmless. May pee in your Sawdust tho.",
       "rules": "PowerLevel 1; může být “hozen pod autobus” jiným heretikem v ohrožení. ⅓ šance, že umřou oba.",
-      "image": "images/108.png",
+      "image": "images/full/108.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/108.webp"
     },
     {
       "id": "109",
@@ -2263,11 +2370,12 @@
       },
       "flavor": "Bo wtedy poczułem Jego łaskę, teraz jestem wierzący Mieczem lub buławą rozprzestrzenię ten krzyk",
       "rules": "PoziomMocy dwa; przyzwie Bóbra po umieszczeniu tej karty, która ma ⅙ szansy na kradzież karty klasy artefaktu położonej przed najbliższym graczem.",
-      "image": "images/109.png",
+      "image": "images/full/109.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/109.webp"
     },
     {
       "id": "110",
@@ -2284,11 +2392,12 @@
       },
       "flavor": "I'm an educated priest, but still I cannot find An answer in the scripture to bring peace to my mind",
       "rules": "PowerLevel 2; snižuje faith všech vyložených karet o 25 %. Cannot coexist with Píp the White (později vyložený odebírá dříve vyloženého).",
-      "image": "images/110.png",
+      "image": "images/full/110.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/110.webp"
     },
     {
       "id": "111",
@@ -2305,11 +2414,12 @@
       },
       "flavor": "Vím, že vás upálím, nešetřím, sedmnáct-set za benzín, upálím, za zvuku svatých krokburín, oh yeah",
       "rules": "PowerLevel 2; zvyšuje faith všech tebou vyložených karet o 25 %. Cannot coexist with Píp the Black (později vyložený odebírá dříve vyloženého).",
-      "image": "images/111.png",
+      "image": "images/full/111.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/111.webp"
     },
     {
       "id": "112",
@@ -2326,11 +2436,12 @@
       },
       "flavor": null,
       "rules": "každé kolo co zůstává vyložen mu roste Power Level dle Fibonacciho stupnice od 2",
-      "image": "images/112.png",
+      "image": "images/full/112.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/112.webp"
     },
     {
       "id": "113",
@@ -2347,11 +2458,12 @@
       },
       "flavor": "Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn",
       "rules": "PowerLevel 1; prvnímu, kdo byť poučen po Jeho vyložení promluví hlasitě, rozespale shreckne postavu s ≤ 5 HP dle výběru Jeho pána.",
-      "image": "images/113.png",
+      "image": "images/full/113.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/113.webp"
     },
     {
       "id": "114",
@@ -2368,11 +2480,12 @@
       },
       "flavor": "Roses are red, violets are blue, I’m stuck on the Eastern Front, and SO ARE FUCKING YOU!",
       "rules": "PowerLevel 2; při vyložení zmasakrují vybranou kartu postavy s defense ≤ 5 tomu soupeři, který se jako poslední nestihne schovat pod stůl.",
-      "image": "images/114.png",
+      "image": "images/full/114.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/114.webp"
     },
     {
       "id": "115",
@@ -2389,11 +2502,12 @@
       },
       "flavor": "No backwards step, we can’t fall back Let the ‘retics hear as we sound the attack",
       "rules": "PowerLevel 0; hráči se spojí v týmy Piliny vs Hobliny podle průměrné faith (+ / - 50%). Každý člen týmu hodí kostkou; hráči v týmu s menším součtem si musí každý odebrat 1 vyloženou kartu.",
-      "image": "images/115.png",
+      "image": "images/full/115.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/115.webp"
     },
     {
       "id": "116",
@@ -2410,11 +2524,12 @@
       },
       "flavor": "Zabil jsem svou zombie mámu i svou inkontinentní babičku - proč myslíš, že zrovna tebe ušetřím?",
       "rules": "PowerLevel 2; při vyložení pošle do Valhaly jakoukoliv vyloženou postavu, má-li méně než 10 HP.",
-      "image": "images/116.png",
+      "image": "images/full/116.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/116.webp"
     },
     {
       "id": "117",
@@ -2431,11 +2546,12 @@
       },
       "flavor": "If Sawdust God keeps smiting your family... Get more family!",
       "rules": "PowerLevel 1; pokud ti je vzata/utracena karta třídy pleb, vylož místo ní novou kartu z doplň. balíčku (dokud polycule žije).",
-      "image": "images/117.png",
+      "image": "images/full/117.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/117.webp"
     },
     {
       "id": "118",
@@ -2452,11 +2568,12 @@
       },
       "flavor": null,
       "rules": "PowerLevel 3; od každého soupeře si PowerLevel 3; od každého soupeře si PowerLevel 3; od každého soupeře si může nezávazně půjčit vyložený může nezávazně půjčit vyložený může nezávazně půjčit vyložený artefakt, tak jako si občas nezávazně artefakt, tak jako si občas nezávazně artefakt, tak jako si občas nezávazně půjči bráchovo klávesy. Je donucen půjči bráchovo klávesy. Je donucen půjči bráchovo klávesy. Je donucen jej vrátit pokud umře či pokud jej vrátit pokud umře či pokud jej vrátit pokud umře či pokud vypůjčitel vyloží jiného Kubu. vypůjčitel vyloží jiného Kubu. vypůjčitel vyloží jiného Kubu. Možný counter Kryštofem Kotíkem. Možný counter Kryštofem Kotíkem. Možný counter Kryštofem Kotíkem. PowerLevel 3; od každého soupeře si může nezávazně půjčit vyložený artefakt, tak jako si občas nezávazně půjči bráchovo klávesy. Je donucen jej vrátit pokud umře či pokud vypůjčitel vyloží jiného Kubu. Možný counter Kryštofem Kotíkem.",
-      "image": "images/118.png",
+      "image": "images/full/118.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/118.webp"
     },
     {
       "id": "119",
@@ -2473,11 +2590,12 @@
       },
       "flavor": "Do not, my friends, become addicted to Sawdust. It will take hold of you, and you will resent its absence. “witness me!”",
       "rules": "PowerLevel 2; po vyložení smíš tuto kartu obětovat společně s jakoukoliv cizí vyloženou kartou. Hráč si musí jedno kolo předtím posprejovat ústa, ukázat na cizí kartu a zařvat .",
-      "image": "images/119.png",
+      "image": "images/full/119.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/119.webp"
     },
     {
       "id": "120",
@@ -2494,11 +2612,12 @@
       },
       "flavor": "I live, I die, I rise again in Sawdust!",
       "rules": "PowerLevel -2; hráč, který tuto hru vyhraje, musí před příští hrou zahodit 2 karty.",
-      "image": "images/120.png",
+      "image": "images/full/120.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/120.webp"
     },
     {
       "id": "121",
@@ -2515,11 +2634,12 @@
       },
       "flavor": "Stud a studění. Ale poté stmelení.",
       "rules": "PowerLevel 0; když vyhraješ tohle kolo, další drink je na vybraného soupeře. PowerLevel +1, pokud soupeřům fotkou prokážeš, žes tímto ordálem již prošel.",
-      "image": "images/121.png",
+      "image": "images/full/121.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/121.webp"
     },
     {
       "id": "122",
@@ -2536,11 +2656,12 @@
       },
       "flavor": "vyhrabeš artefakt, tak je tvuj, bo sis ho vykopal, tak co. Ale jak tam vyhrabeš heretika, tak maš padesat na padesat, že zdechneš jak cyp. A tym je to vyřešene, ni? vyhrabeš artefakt, tak je tvuj, bo sis ho vykopal, tak co. Ale jak tam vyhrabeš heretika, tak maš padesat na padesat, že zdechneš jak cyp. A tym je to vyřešene, ni?",
       "rules": null,
-      "image": "images/122.png",
+      "image": "images/full/122.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/122.webp"
     },
     {
       "id": "123",
@@ -2557,11 +2678,12 @@
       },
       "flavor": "Náběhem na sekyrku ještě nikdy nikdo Sawdust nestvořil, young lady. -z knihy posledních slov obětí Aniky",
       "rules": "PowerLevel 0; lze zahrát pouze mimo svůj tah, zdvojnásobuje efekt poslední vyložené karty. Nefunguje na rare a legendární karty :(",
-      "image": "images/123.png",
+      "image": "images/full/123.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/123.webp"
     },
     {
       "id": "124",
@@ -2578,11 +2700,12 @@
       },
       "flavor": "If you're not the customer, you're the product.",
       "rules": "PowerLevel 1; při vyložení se pokusí zkosit a uvařit jednoho vyloženého heretika (šance jedna ku PowerLevel). Povede-li se mu to, +1 PowerLevel všem vyloženým heretikům.",
-      "image": "images/124.png",
+      "image": "images/full/124.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/124.webp"
     },
     {
       "id": "125",
@@ -2599,11 +2722,12 @@
       },
       "flavor": null,
       "rules": null,
-      "image": "images/125.png",
+      "image": "images/full/125.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/125.webp"
     },
     {
       "id": "126",
@@ -2620,11 +2744,12 @@
       },
       "flavor": "Hyuk, hyuk, hyuk... garsh. But I did.",
       "rules": "PowerLevel 1; při vyložení může shreknout nepřátelskou postavu s defense 4 či menším. Možný counter CCTV kamerou v místnosti.",
-      "image": "images/126.png",
+      "image": "images/full/126.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/126.webp"
     },
     {
       "id": "127",
@@ -2641,11 +2766,12 @@
       },
       "flavor": "Diggy diggy bábabába bébe diggy diggy dády dou. Ooh, a femur!",
       "rules": "PowerLevel 1; při vyložení si můžeš vzít do ruky svrchní kartu z odhazovacího balíčku.",
-      "image": "images/127.png",
+      "image": "images/full/127.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/127.webp"
     },
     {
       "id": "128",
@@ -2662,11 +2788,12 @@
       },
       "flavor": "#nohomo",
       "rules": "PowerLevel 0; po vyložení si za každou již vyloženou dvojici Přemek+Vláďa ve tvém či cizím týmu lízni ͡ ͜ʖ ͡ vyměň jednu kartu z ruky za kartu z dobíracího balíčku.",
-      "image": "images/128.png",
+      "image": "images/full/128.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/128.webp"
     },
     {
       "id": "129",
@@ -2683,11 +2810,12 @@
       },
       "flavor": "I'm beggin', beggin' you So sheath your Sawdust blade now, baby",
       "rules": "PowerLevel 0; lze vyložit mimo své kolo s ½ šancí na odvrácení vzetí tvé karty soupeřem. Hráč musí uboze žadonit na kolenou.",
-      "image": "images/129.png",
+      "image": "images/full/129.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/129.webp"
     },
     {
       "id": "130",
@@ -2704,11 +2832,12 @@
       },
       "flavor": "Make me more than ordinary So I can do more work than just missionary ( ͡ ° ͜ʖ ͡ °)",
       "rules": "PowerLevel 0; dokud je tato karta vyložena tak se všichni heretici ve tvém týmu považují za pleby a všichni plebové za sawdust fans.",
-      "image": "images/130.png",
+      "image": "images/full/130.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/130.webp"
     },
     {
       "id": "131",
@@ -2725,11 +2854,12 @@
       },
       "flavor": "Tři zatřepání nuff. Tři zatřepání nuff. Tři zatřepání nuff.",
       "rules": "PowerLevel 2; dodatečné +2 PowerLevel pro kteréhokoliv hráče, který čůral naposled před vyložením této karty. PowerLevel 2; dodatečné +2 PowerLevel pro kteréhokoliv hráče, který čůral naposled před vyložením této karty. PowerLevel 2; dodatečné +2 PowerLevel pro kteréhokoliv hráče, který čůral naposled před vyložením této karty.",
-      "image": "images/131.png",
+      "image": "images/full/131.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/131.webp"
     },
     {
       "id": "132",
@@ -2746,11 +2876,12 @@
       },
       "flavor": "One, two, three, four, five Everybody in the sawmill, come on, we're alive",
       "rules": "PowerLevel 1; při vyložení vezmi a ukaž 3 karty z odhazovacího balíčku, Přemky si vylož a zbytek vrať zpět.",
-      "image": "images/132.png",
+      "image": "images/full/132.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/132.webp"
     },
     {
       "id": "133",
@@ -2767,11 +2898,12 @@
       },
       "flavor": "Doma je tam, kde je Sawdust. A piko.",
       "rules": "PowerLevel 2; Pokud se mu dvě kola po sobě nezvýší faith, přestěhuje se k hráči vpravo.",
-      "image": "images/133.png",
+      "image": "images/full/133.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/133.webp"
     },
     {
       "id": "134",
@@ -2788,11 +2920,12 @@
       },
       "flavor": "Why did you have to leave the side of the faithful? And why did you have to act so damn disgraceful?",
       "rules": "PowerLevel 0; dokud je karta vyložena, má každé kolo ⅓ šanci na přetáhnutí cizího vyloženého heretika s nejmenším defense.",
-      "image": "images/134.png",
+      "image": "images/full/134.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/134.webp"
     },
     {
       "id": "135",
@@ -2809,11 +2942,12 @@
       },
       "flavor": "Forward! The enemy may know where you are, but I know where your entire family is.",
       "rules": "PowerLevel 2; will shoot anything and anyone trying to leave his team alive.",
-      "image": "images/135.png",
+      "image": "images/full/135.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/135.webp"
     },
     {
       "id": "136",
@@ -2830,11 +2964,12 @@
       },
       "flavor": "A little bit of bark is all I need A little bit of shavings, that's my creed",
       "rules": "PowerLevel 1; PowerLevel +1 pokud hráč společně s vyložením doplní svůj nápoj odlišným nápojem (musí být zkonzumován).",
-      "image": "images/136.png",
+      "image": "images/full/136.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/136.webp"
     },
     {
       "id": "137",
@@ -2851,11 +2986,12 @@
       },
       "flavor": "Pokud je takto monstrózní larvální stádium, jaký osud pro nás chystá dospělec?",
       "rules": "PowerLevel 1; pokud přežije vyložená další 3 kola, stává se z ní nesmrtelné imago s PowerLevel 3.",
-      "image": "images/137.png",
+      "image": "images/full/137.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/137.webp"
     },
     {
       "id": "138",
@@ -2872,11 +3008,12 @@
       },
       "flavor": "'Cause then I felt His grace, now I'm a believer. Oopsie, just peed meself.",
       "rules": "PowerLevel 0; +25% faith pro vybranou class karet ve tvém týmu. Dosáhneš-li kumulativně více než 400 % faith, lízni si kartu z doplňovacího balíčku.",
-      "image": "images/138.png",
+      "image": "images/full/138.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/138.webp"
     },
     {
       "id": "139",
@@ -2893,11 +3030,12 @@
       },
       "flavor": "May Sawdust God have mercy on your perverted soul, for His followers won´t.",
       "rules": "PowerLevel 0; při vyložení zničí jakýkoliv vyložený artefakt ve hře.",
-      "image": "images/139.png",
+      "image": "images/full/139.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/139.webp"
     },
     {
       "id": "140",
@@ -2914,11 +3052,12 @@
       },
       "flavor": "Would you like to know more?",
       "rules": "PowerLevel 3; každé kolo ⅓ šance na sežrání všech vyložených karet “Good ol´ pile of Sawdust”. Možný counter plácačkou.",
-      "image": "images/140.png",
+      "image": "images/full/140.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/140.webp"
     },
     {
       "id": "141",
@@ -2935,11 +3074,12 @@
       },
       "flavor": "Furt o Něm jen zpívat na zemi Ho líbat Jen Piliny vzývat nikdy to neskrývat",
       "rules": "PowerLevel 2; karta s nejvyšším faith v danou chvíli získává +3 PowerLevel.",
-      "image": "images/141.png",
+      "image": "images/full/141.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/141.webp"
     },
     {
       "id": "142",
@@ -2956,11 +3096,12 @@
       },
       "flavor": "It takes a lot of tape to fix hard wood.",
       "rules": "PowerLevel 1; chrání tvé artefakty před schopnostmi ostatních karet.",
-      "image": "images/142.png",
+      "image": "images/full/142.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/142.webp"
     },
     {
       "id": "143",
@@ -2977,11 +3118,12 @@
       },
       "flavor": "Draze jen chutná.",
       "rules": "PowerLevel 0; PowerLevel +1 za každý braníček, který jsi dnes zkonzumoval.",
-      "image": "images/143.png",
+      "image": "images/full/143.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/143.webp"
     },
     {
       "id": "144",
@@ -2998,11 +3140,12 @@
       },
       "flavor": "NO! Not the buttons! Not my gumdrop buttons!",
       "rules": "PowerLevel 1; PowerLevel +1 pokud nepříteli oblízneš něco co konzumuje. Možný counter píšťalkou.",
-      "image": "images/144.png",
+      "image": "images/full/144.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/144.webp"
     },
     {
       "id": "145",
@@ -3019,11 +3162,12 @@
       },
       "flavor": "Svatá Edith nám naši cestu osvítí, Svatá Edith nám heretiky vymýtí, Svatá Edith nám káže že nejsi sám",
       "rules": "PowerLevel 2; při vyložení musíš naráz vypít alespoň 3 dl vody. +25% faith tvým kartám.",
-      "image": "images/145.png",
+      "image": "images/full/145.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/145.webp"
     },
     {
       "id": "146",
@@ -3040,11 +3184,12 @@
       },
       "flavor": "I prefer the real Vláďa. Perfection.",
       "rules": "Přejímá vlastnosti zvolené vyložené karty vyjma class, ale pouze na 50 % výkonu. Přejímá i osud zvolené karty. We foresee no confusion with this design.",
-      "image": "images/146.png",
+      "image": "images/full/146.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/146.webp"
     },
     {
       "id": "147",
@@ -3061,11 +3206,12 @@
       },
       "flavor": "Told my doctor, he just frowned :(",
       "rules": "PowerLevel 0; všechny vyložené karty s Faith menším než 25% ztrácejí 1 PowerLevel; možné vyrušit konzumací 2g sawdustu za každou kartu.",
-      "image": "images/147.png",
+      "image": "images/full/147.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/147.webp"
     },
     {
       "id": "148",
@@ -3082,11 +3228,12 @@
       },
       "flavor": "Pachuť kreatinu a závan lískových pilin.",
       "rules": "PowerLevel 3; pokud si každý oponent dá 10 kliků do 30 vteřin po jeho vyložení, Matyho PowerLevel klesá na 2.",
-      "image": "images/148.png",
+      "image": "images/full/148.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/148.webp"
     },
     {
       "id": "149",
@@ -3103,11 +3250,12 @@
       },
       "flavor": "I guess that it really worked When I told her the lore",
       "rules": "PowerLevel 1; vykládající hráč se smí podívat až na tři karty v rukou soupeřů.",
-      "image": "images/149.png",
+      "image": "images/full/149.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/149.webp"
     },
     {
       "id": "150",
@@ -3124,11 +3272,12 @@
       },
       "flavor": "'Cause we were just plebs when we found that pile, the smell alone made us smile, and the sight forced us all to cry, but lord, You blessed me so, belief is all I know, and in Your eyes no more do I fry",
       "rules": "PowerLevel 0; PowerLevel +1 za každých 50% víry tvého týmu.",
-      "image": "images/150.png",
+      "image": "images/full/150.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/150.webp"
     },
     {
       "id": "151",
@@ -3145,11 +3294,12 @@
       },
       "flavor": "So if they outrun all our gun, good fun, leave none, And empty your whole clip",
       "rules": "PowerLevel 1; při vyložení vyzývá jinou kartu k duelu v hodu kostkou. Looser je shreknut. Karty s PowerLevel nad 3 si hází dvakrát a vybírají lepší hod, karty s PowerLevel nad 5 třikrát.",
-      "image": "images/151.png",
+      "image": "images/full/151.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/151.webp"
     },
     {
       "id": "152",
@@ -3166,11 +3316,12 @@
       },
       "flavor": "From the S to the D, on the mic you will see a Sawdust priest that's me, yeah",
       "rules": "PowerLevel 1; při vyložení se pokusí unést vyložený artefakt soupeře (jedna ku PowerLevel). Zpět to vezme přes ostatní hráče a u každého má ⅓ šanci na to, že u něj artefakt omylem dropne.",
-      "image": "images/152.png",
+      "image": "images/full/152.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/152.webp"
     },
     {
       "id": "153",
@@ -3187,11 +3338,12 @@
       },
       "flavor": "A sawdust priest they all could be If only they could open up their eyes and see",
       "rules": "PowerLevel 1; při vyložení se může podívat na první 3 karty v doplňovacím balíčku.",
-      "image": "images/153.png",
+      "image": "images/full/153.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/153.webp"
     },
     {
       "id": "154",
@@ -3208,11 +3360,12 @@
       },
       "flavor": "So many ways to be slayin’, like guns that go pew-pew, yeah, ra-ta-ta-ta",
       "rules": "PowerLevel 1; při vyložení označ nepřátelský cíl*, který na začátku tvého příštího tahu námezdníci shootnou. ½ šance na úspěch proti PowerLevel >3. *",
-      "image": "images/154.png",
+      "image": "images/full/154.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/154.webp"
     },
     {
       "id": "155",
@@ -3229,11 +3382,12 @@
       },
       "flavor": "Share the load.",
       "rules": "PowerLevel 2; pokud má vykládající hráč prsten na ruce, zůstavá tato karta lícem dolů až do konce hry.",
-      "image": "images/155.png",
+      "image": "images/full/155.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/155.webp"
     },
     {
       "id": "156",
@@ -3250,11 +3404,12 @@
       },
       "flavor": "He very happy!",
       "rules": "PowerLevel 1; všechny tvé karty jsou potěšeny a získávají +5 defense.",
-      "image": "images/156.png",
+      "image": "images/full/156.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/156.webp"
     },
     {
       "id": "157",
@@ -3271,11 +3426,12 @@
       },
       "flavor": "Is this your homework Larry?!",
       "rules": "PowerLevel 1; faith +20 % kartám všech hráčů co nevlastní automobil a nemusí tak žít v permanentním strachu",
-      "image": "images/157.png",
+      "image": "images/full/157.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/157.webp"
     },
     {
       "id": "158",
@@ -3292,11 +3448,12 @@
       },
       "flavor": "Now, if you don't give me some new merch, or a refund, I sir, will take my business elsewhere!",
       "rules": "PowerLevel 3; společně s vyložením musíš vyložit před libovolného soupeře artefakt.",
-      "image": "images/158.png",
+      "image": "images/full/158.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/158.webp"
     },
     {
       "id": "159",
@@ -3313,11 +3470,12 @@
       },
       "flavor": "We'll tell you how Sawdust Priests are made when you're older, champ.",
       "rules": "PowerLevel 0; vedle každého tvého komba Přemek + Vláďa, mají-li souhrnný faith ≥150%, vylož s touto kartou i prvního Simona co najdeš v dobíracím balíčku.",
-      "image": "images/159.png",
+      "image": "images/full/159.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/159.webp"
     },
     {
       "id": "160",
@@ -3334,11 +3492,12 @@
       },
       "flavor": "Law has spoken. Pleb is broken. Whining is intense. Sins regrettable. Spare this pervert. Let him convert.",
       "rules": "PowerLevel 0; vyložená karta s nejvyšším faith si vymění pozici s tou s nejnižší faith (v případě shody faith si hoď kostkou).",
-      "image": "images/160.png",
+      "image": "images/full/160.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/160.webp"
     },
     {
       "id": "161",
@@ -3355,11 +3514,12 @@
       },
       "flavor": "Hijé. hijé... oh. A broken ankle. :( *cocks gun*",
       "rules": "PowerLevel 1; po vyložení zvyšuje tvému vybranému priestovi attack, defense a HP +5 a faith +20%. Nesdílí osud priesta a na začátku každého tvého kola může být přidělen jinému.",
-      "image": "images/161.png",
+      "image": "images/full/161.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/161.webp"
     },
     {
       "id": "162",
@@ -3376,11 +3536,12 @@
       },
       "flavor": "Where we're going, we won't need eyes to see",
       "rules": "PowerLevel 1; při vyložení si z ruky každého soupeře vylosuje jednu kartu, přidá svoji vybranou, zamíchá je a rozdá zpět.",
-      "image": "images/162.png",
+      "image": "images/full/162.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/162.webp"
     },
     {
       "id": "163",
@@ -3397,11 +3558,12 @@
       },
       "flavor": "I fucking hate french cartoons.",
       "rules": "PowerLevel 1; PowerLevel +2, pokud si vykládající při vyložení dá Kouzelný nápoj (cokoliv zelené barvy).",
-      "image": "images/163.png",
+      "image": "images/full/163.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/163.webp"
     },
     {
       "id": "164",
@@ -3418,11 +3580,12 @@
       },
       "flavor": "...the fuck you just said?!",
       "rules": "PowerLevel 1; lze vyložit i mimo tvé kolo po přímém útoku na tvého vyloženého Šimona. Instatně shrekne útočící kartu. Nefunguje vůči jiným Šimonům.",
-      "image": "images/164.png",
+      "image": "images/full/164.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/164.webp"
     },
     {
       "id": "165",
@@ -3439,11 +3602,12 @@
       },
       "flavor": "Oh, when we met, you seemed so fine, breaking some heretic spine, but now it seems you have to burn, why did you the Sawdust spurn?",
       "rules": "PowerLevel 1; po vyložení provede soud nad vyloženou kartou pleba. Šance 50/50 že ji upálí, anebo ji permanentně přidá +2 PowerLevel.",
-      "image": "images/165.png",
+      "image": "images/full/165.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/165.webp"
     },
     {
       "id": "166",
@@ -3460,11 +3624,12 @@
       },
       "flavor": "You're bundled up now, wait 'til you get older",
       "rules": "PowerLevel 1; pokud přežije další 2 kola vyložen, přibírá k sobě 2 svrchní karty z dobíracího balíčku, ale pouze pokud mají faith menší než 40%.",
-      "image": "images/166.png",
+      "image": "images/full/166.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/166.webp"
     },
     {
       "id": "167",
@@ -3481,11 +3646,12 @@
       },
       "flavor": "One of the food of all time. Now with 0% lead.",
       "rules": "PowerLevel 1; Po vyložení neremcej a dones ke stolu mňaminy!",
-      "image": "images/167.png",
+      "image": "images/full/167.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/167.webp"
     },
     {
       "id": "168",
@@ -3502,11 +3668,12 @@
       },
       "flavor": "This war, like the next war, is a war to end all wars.",
       "rules": "PowerLevel 1; po vyložení si každý hráč odebere jednu svou vyloženou kartu (ne tuto). Lze vyložit jen pokud je vyloženo alespoň 8 karet.",
-      "image": "images/168.png",
+      "image": "images/full/168.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/168.webp"
     },
     {
       "id": "169",
@@ -3523,11 +3690,12 @@
       },
       "flavor": "We watched the queen of steel from the Irish sea Slowly sink beneath the wa-",
       "rules": "PowerLevel 0; všechny tvé karty jsou odteď naloděny na HMS Plebnaught a získávají +1 PowerLevel za každých 8 HP. Loď má ale nosnost jen 40 HP; v případě potopení má každá karta ⅓ šanci na utonutí.",
-      "image": "images/169.png",
+      "image": "images/full/169.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/169.webp"
     },
     {
       "id": "170",
@@ -3544,11 +3712,12 @@
       },
       "flavor": "All 'retics all over the world The one true God 'pon ya case man",
       "rules": "PowerLevel 2; PowerLevel +1 pokud je při vyložení v dohledu někdo s dredama.",
-      "image": "images/170.png",
+      "image": "images/full/170.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/170.webp"
     },
     {
       "id": "171",
@@ -3565,11 +3734,12 @@
       },
       "flavor": "I've seen things you people wouldn't believe. All those moments will be lost in time, like sawdust in the drain. Time to fap.",
       "rules": "PowerLevel 1; při vyložení zvolíš třídu karet. Soupeři si zavřou oči a na prstech ukáží, kolik karet dané třídy mají v ruce.",
-      "image": "images/171.png",
+      "image": "images/full/171.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/171.webp"
     },
     {
       "id": "172",
@@ -3586,11 +3756,12 @@
       },
       "flavor": "He thought about it. You gay.",
       "rules": "PowerLevel 1; při vyložení si lízni jednu kartu z doplňovacího balíčku a všem ji ukaž.",
-      "image": "images/172.png",
+      "image": "images/full/172.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/172.webp"
     },
     {
       "id": "173",
@@ -3607,11 +3778,12 @@
       },
       "flavor": "I do. Do you?",
       "rules": "PowerLevel 1; Při vyložení shkrekne všechny vyložené Přemky až na jednoho dle tvého výběru. No backsies!",
-      "image": "images/173.png",
+      "image": "images/full/173.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/173.webp"
     },
     {
       "id": "174",
@@ -3628,11 +3800,12 @@
       },
       "flavor": "Úchyltombolu vždy zaručil, co poslouchat nešlo to on nazvučil, koukej na ty schopný hnáty, spíše nevolí piráty",
       "rules": "PowerLevel 2; spolu s vyložením musí probíhat EDM kalba. Hrají-li sračky či je-li ticho, znechuceně putuje na odhazovací balíček.",
-      "image": "images/174.png",
+      "image": "images/full/174.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/174.webp"
     },
     {
       "id": "175",
@@ -3649,11 +3822,12 @@
       },
       "flavor": "bottom text",
       "rules": "PowerLevel 1; při vyložení si za každého tvého Matyho s faith nad 90 % lízni jednu kartu.",
-      "image": "images/175.png",
+      "image": "images/full/175.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/175.webp"
     },
     {
       "id": "176",
@@ -3670,11 +3844,12 @@
       },
       "flavor": "Kill their friends, and their moms, kill their moms, with our guns",
       "rules": "PowerLevel 1; při vyložení popraví vyloženou kartu s nejméně faith*. *Too terrified to take on Plebaddon the Despoiler.",
-      "image": "images/176.png",
+      "image": "images/full/176.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/176.webp"
     },
     {
       "id": "177",
@@ -3691,11 +3866,12 @@
       },
       "flavor": "Curse them! We hates them! It's ours and we wants it!",
       "rules": "PowerLevel 1; Při vyložení ukradne cizímu hráči vybraný artefakt. Možný counter syrovou rybou.",
-      "image": "images/177.png",
+      "image": "images/full/177.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/177.webp"
     },
     {
       "id": "178",
@@ -3712,11 +3888,12 @@
       },
       "flavor": "There is only one who can defeat the heretics. And he must be found.",
       "rules": "PowerLevel 3; po vyložení dej soupeřům 20 sekund na schování této karty ve tvém bezprostředním dosahu (1,5 metru, ne batohy n' shit). Dokud ho nenajdeš, nijak ti nebenefituje.",
-      "image": "images/178.png",
+      "image": "images/full/178.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/178.webp"
     },
     {
       "id": "179",
@@ -3733,11 +3910,12 @@
       },
       "flavor": "Sawdust, mo-no-theistic, we gon crusade real simplistic C'mon, kill dat heretic, all of em dead it's a statistic",
       "rules": "PowerLevel 0; je-li ve hře vyloženo 4 a více heretiků, můžeš spustit pogrom. Hráči musí zabít tolik % svých vyložených heretiků kolik je průměrný faith jejich týmu (nejbližší zaokrouhlení rozhoduje).",
-      "image": "images/179.png",
+      "image": "images/full/179.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/179.webp"
     },
     {
       "id": "180",
@@ -3754,11 +3932,12 @@
       },
       "flavor": "I found a faith for me Had to just dive right in and do holy deeds",
       "rules": "PowerLevel 1; při vyložení oživí tvou kartu z odhazovacího balíčku tučnou dávkou víry (-20% faith tvých vyložených karet).",
-      "image": "images/180.png",
+      "image": "images/full/180.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/180.webp"
     },
     {
       "id": "181",
@@ -3775,11 +3954,12 @@
       },
       "flavor": "Hunga bunga gaga heh, Kuba peepee kinda meh",
       "rules": "PowerLevel 2; po vyložení o sobě musí hráč hovořit ve třetí osobě, jinak paleopleb vyhyne. Jeden přeřek = PowerLevel -1.",
-      "image": "images/181.png",
+      "image": "images/full/181.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/181.webp"
     },
     {
       "id": "182",
@@ -3796,11 +3976,12 @@
       },
       "flavor": "Církev se třese před mocí jejích dogmat.",
       "rules": "PowerLevel 0; anuluje jakýkoliv efekt poslední vyložené karty, lze zahrát mimo tah. Nefunguje na rare a legendary karty :(",
-      "image": "images/182.png",
+      "image": "images/full/182.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/182.webp"
     },
     {
       "id": "183",
@@ -3817,11 +3998,12 @@
       },
       "flavor": "Je perçois un soupçon de chocolat et de sciure de bois.",
       "rules": "Pouvoir 1, +1 Pouvoir si vous buvez du vin, +2 si votre vin contient de la sciure de bois.",
-      "image": "images/183.png",
+      "image": "images/full/183.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/183.webp"
     },
     {
       "id": "184",
@@ -3838,11 +4020,12 @@
       },
       "flavor": "Soft arms, softer heart.",
       "rules": "PowerLevel 1; po vyložení se všichni tvý Matyové cítí v bezpečí a získávají +10 defense.",
-      "image": "images/184.png",
+      "image": "images/full/184.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/184.webp"
     },
     {
       "id": "185",
@@ -3859,11 +4042,12 @@
       },
       "flavor": "mlíko mlíko prkno mlíko, mlíko mlíko prkno mlíko, mlíko mlíko prkno mlíko, mlíko mlíko prkno flexa",
       "rules": "PowerLevel 0; tento instrument činí veškeré jiné nástroje nadbytečnými. I ty můžeš po vyložení této karty vzít zpět do ruky až 2 již vyložené karty. Lze vyložit pouze pokud je ve hře vyložen Píp.",
-      "image": "images/185.png",
+      "image": "images/full/185.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/185.webp"
     },
     {
       "id": "186",
@@ -3880,11 +4064,12 @@
       },
       "flavor": "Uhm",
       "rules": "PowerLevel 1; při vyložení zvol třídu karet, která je cancelled a nesmí se vykládat dokud je tato karta vyložena. Možný counter zakoupením sociální sítě.",
-      "image": "images/186.png",
+      "image": "images/full/186.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/186.webp"
     },
     {
       "id": "187",
@@ -3901,11 +4086,12 @@
       },
       "flavor": "Made in Indonesia.",
       "rules": "PowerLevel 0; PowerLevel +1 za každých 10 attack všech vyložených Šimonů. Pokud je attack nad 40, s mocným GGGG vybuchuje a je odebrána spolu s náhodně vybraným unlucky Šimonem.",
-      "image": "images/187.png",
+      "image": "images/full/187.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/187.webp"
     },
     {
       "id": "188",
@@ -3922,11 +4108,12 @@
       },
       "flavor": "Huh, who knew anyone at SoS concerts could actually play music...",
       "rules": "PowerLevel 1; pokud kdykoliv po vyložení dosáhne součet PowerLevels na stole alespoň 42... That's it. You won the round.",
-      "image": "images/188.png",
+      "image": "images/full/188.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/188.webp"
     },
     {
       "id": "189",
@@ -3943,11 +4130,12 @@
       },
       "flavor": "So, so you think you’re a priest Heavenly beast? Last but not least?",
       "rules": "PowerLevel 0; ½ šance na svedení přímého útoku směřujícího na tvého Sawdust Priesta, ale pokaždé s ½ šancí na zničení decoy.",
-      "image": "images/189.png",
+      "image": "images/full/189.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/189.webp"
     },
     {
       "id": "190",
@@ -3964,11 +4152,12 @@
       },
       "flavor": "Tvá krása nemá srovnání, když heretiky proháníš, Hindu ale neslyší tvůj hlas. Ač nechce věřit pilině, až převtělí se v kravíně, bude přece šlapat na Sawdust.",
       "rules": "PowerLevel 4; Ve svém teokratickém království toleruje krom sebe pouze 2 různé třídy postav.",
-      "image": "images/190.png",
+      "image": "images/full/190.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/190.webp"
     },
     {
       "id": "191",
@@ -3985,11 +4174,12 @@
       },
       "flavor": "Other bass players HATE him! With this one weird trick, you can turn a boring thaw of G G G G into a true blizzard.",
       "rules": "PowerLevel 2;. může být vyložen jen jako náhrada tvé jiné, less handsome karty.",
-      "image": "images/191.png",
+      "image": "images/full/191.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/191.webp"
     },
     {
       "id": "192",
@@ -4006,11 +4196,12 @@
       },
       "flavor": "Kámen nůžky papír teď. Kámen nůžky papír. Kámen nůžky. Kámen. KÁMEN. Ḵ̶̯̦͚̻̠̲͌̔̍̔̓̕̕͜Á̵̡̪̫̮̤̺̯̽̃͌̍̀̒̕͜M̴̼̼̺̱͊̏̃͂̐͆̈́͒̑͂̽͂͝Ȩ̶̛͔͓̤͕̫̫̗̝̳̱̩̓̏̇̎̔̋͘N̸͕̝̰̼̜͖̑̅̽̉͘",
       "rules": "PowerLevel 1;. skosí vybraného vyloženého heretika vyjma Plebaddona. Šance ⅓, že v rightous frenzy skosí i tvoji vyloženou postavu s nejmenším faith.",
-      "image": "images/192.png",
+      "image": "images/full/192.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/192.webp"
     },
     {
       "id": "193",
@@ -4027,11 +4218,12 @@
       },
       "flavor": "Heretiku, ty jsi takový debil, já tě crushnu.",
       "rules": "PowerLevel 2;. ciseluje vybraného vyloženého heretika na hromádku rosolu. Každý hráč vyjma novopečeného vlastníka rosolu má ⅙ šanci, že mu Mája shrekne vyloženou postavu s nejmenším faith.",
-      "image": "images/193.png",
+      "image": "images/full/193.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/193.webp"
     },
     {
       "id": "194",
@@ -4048,11 +4240,12 @@
       },
       "flavor": "my right to consign untold billions to their death. But those who have seen the crimes of heretics know... That I have no right to let them live.",
       "rules": "PowerLevel 4; každé kolo co zůstává vyložen odsoudí jednoho vyloženého pleba k záhubě.",
-      "image": "images/194.png",
+      "image": "images/full/194.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/194.webp"
     },
     {
       "id": "195",
@@ -4069,11 +4262,12 @@
       },
       "flavor": "G G G G, A A A A, D D D D D, G G... G G G G, A A A A, D D D D D, G G... G G G G, A A A A, D D D D D, G G...",
       "rules": "PowerLevel 5; simple instrument, simple man, simple card. PowerLevel 5; simple instrument, simple man, simple card. PowerLevel 5; simple instrument, simple man, simple card.",
-      "image": "images/195.png",
+      "image": "images/full/195.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/195.webp"
     },
     {
       "id": "196",
@@ -4090,11 +4284,12 @@
       },
       "flavor": "Special ability: Capo di Tutti Capi Véčko má každé kolo šanci ½ na zabití postavy s nejmenším defense náležící hráči vpravo. Po úspěšném lovu platí to samé pro dalšího hráče vpravo. Zároveň má však každé kolo šanci ⅓ i na vlastní záhubu.",
       "rules": null,
-      "image": "images/196.png",
+      "image": "images/full/196.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/196.webp"
     },
     {
       "id": "197",
@@ -4111,11 +4306,12 @@
       },
       "flavor": "No, nothing to declare, officer. What do you mean “it sneezed”?",
       "rules": "PowerLevel 0; vlož pod ní lící dolů 2 karty z dobíracího balíčku. Ty jsou odhaleny a zároveň vyloženy jen když je kufr odhozen*. *čti shreknut, do té doby sdílí osud",
-      "image": "images/197.png",
+      "image": "images/full/197.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/197.webp"
     },
     {
       "id": "198",
@@ -4132,11 +4328,12 @@
       },
       "flavor": "Crudely yet efficietly collected tree shavings of notable age stored in acceptable condition.",
       "rules": "PowerLevel 1.",
-      "image": "images/198.png",
+      "image": "images/full/198.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/198.webp"
     },
     {
       "id": "199",
@@ -4153,11 +4350,12 @@
       },
       "flavor": "Crudely yet efficietly collected tree shavings of notable age stored in acceptable condition.",
       "rules": "PowerLevel 1.",
-      "image": "images/199.png",
+      "image": "images/full/199.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/199.webp"
     },
     {
       "id": "200",
@@ -4174,11 +4372,12 @@
       },
       "flavor": "Crudely yet efficietly collected tree shavings of notable age stored in acceptable condition.",
       "rules": "PowerLevel 1.",
-      "image": "images/200.png",
+      "image": "images/full/200.webp",
       "releaseDate": null,
       "printCount": null,
       "lore": null,
-      "synergies": []
+      "synergies": [],
+      "thumb": "images/thumbs/200.webp"
     }
   ]
 }

@@ -3,7 +3,8 @@ import { useSearchParams, Link } from 'react-router-dom';
 import data from '../../data/cards.json';
 import { filterAndSortCards } from '../utils/filterCards';
 
-const images = import.meta.glob('../../images/*', { eager: true, import: 'default' });
+const thumbImages = import.meta.glob('../../images/thumbs/*.webp', { eager: true, import: 'default' });
+const allImages = import.meta.glob(['../../images/*', '../../images/full/*'], { eager: true, import: 'default' });
 
 const RARITY_COLORS = {
   legendary: '#ffd700',
@@ -246,23 +247,25 @@ export default function Library() {
       </div>
 
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(140px, 1fr))', gap: '1.5rem' }}>
-        {sortedCards.map((card) => (
-          <Link 
-            key={card.id} 
-            to={`/kartoteka/${card.id}?${searchParams.toString()}`} 
-            style={{ textDecoration: 'none', color: '#0000FF', display: 'flex', flexDirection: 'column', alignItems: 'center' }}
-          >
-            {card.image && images[`../../${card.image}`] ? (
-              <img 
-                src={images[`../../${card.image}`]} 
-                alt={card.name} 
-                style={{ width: '100%', height: 'auto', border: '4px solid #FF0000', backgroundColor: '#FFFFFF', padding: '2px' }} 
-              />
-            ) : (
-              <div style={{ width: '100%', aspectRatio: '2.5/3.5', backgroundColor: '#e0e0e0', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '4px solid #0000FF', color: '#FF0000', fontWeight: 'bold' }}>
-                Bez obrázku
-              </div>
-            )}
+        {sortedCards.map((card) => {
+          const imgSrc = (card.thumb && thumbImages[`../../${card.thumb}`]) || (card.image && allImages[`../../${card.image}`]) || allImages[`../../images/${card.id}.png`];
+          return (
+            <Link 
+              key={card.id} 
+              to={`/kartoteka/${card.id}?${searchParams.toString()}`} 
+              style={{ textDecoration: 'none', color: '#0000FF', display: 'flex', flexDirection: 'column', alignItems: 'center' }}
+            >
+              {imgSrc ? (
+                <img 
+                  src={imgSrc} 
+                  alt={card.name} 
+                  style={{ width: '100%', height: 'auto', border: '4px solid #FF0000', backgroundColor: '#FFFFFF', padding: '2px' }} 
+                />
+              ) : (
+                <div style={{ width: '100%', aspectRatio: '2.5/3.5', backgroundColor: '#e0e0e0', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '4px solid #0000FF', color: '#FF0000', fontWeight: 'bold' }}>
+                  Bez obrázku
+                </div>
+              )}
             <div style={{ marginTop: '0.5rem', fontWeight: 'bold', textAlign: 'center', fontSize: '0.9rem' }}>
               {card.name}
             </div>
@@ -279,7 +282,8 @@ export default function Library() {
               {card.rarity}
             </div>
           </Link>
-        ))}
+        );
+      })}
         {sortedCards.length === 0 && (
           <div style={{ gridColumn: '1 / -1', textAlign: 'center', padding: '3rem', color: '#FF0000', fontWeight: 'bold', fontSize: '1.5rem', border: '4px dashed #FF0000', backgroundColor: '#FFFFCC' }}>
             ŽÁDNÉ KARTY NENALEZENY. SYSTÉM VÁS Oklamal!

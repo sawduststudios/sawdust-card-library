@@ -5,7 +5,7 @@ import data from '../../data/cards.json';
 import tinderConfig from '../config/tinderConfig.json';
 import './Tinder.css';
 
-const images = import.meta.glob('../../images/*', { eager: true, import: 'default' });
+const images = import.meta.glob(['../../images/*', '../../images/full/*'], { eager: true, import: 'default' });
 
 const PROPHECIES = {
   holy: [

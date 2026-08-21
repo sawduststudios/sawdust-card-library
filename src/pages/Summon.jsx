@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import data from '../../data/cards.json';
 import './Summon.css';
 
-const images = import.meta.glob('../../images/*', { eager: true, import: 'default' });
+const images = import.meta.glob(['../../images/*', '../../images/full/*'], { eager: true, import: 'default' });
 
 import cardBackImg from '../assets/card_back.png';
 
