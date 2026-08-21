@@ -21,7 +21,7 @@ const PROPHECIES = {
   monster: [
     "Zvířecí instinkty se probouzí. Zítra dostaneš neodolatelnou chuť na syrové maso.",
     "Tvůj vnitřní netvor má hlad. Někdo ti dnes ukradne svačinu.",
-    "Pozor na úplněk. Můžeš se proměnit ve vysavač."
+    "Pozor na úplněk. Můžeš se proměnit v ťétobendera."
   ],
   pleb: [
     "Jsi obyčejný smrtelník. Tvá budoucnost je průměrná, ale aspoň tě dnes nikdo nesežere.",
@@ -29,14 +29,13 @@ const PROPHECIES = {
     "Tvá astrální stopa je neviditelná. Dnes zapomeneš, pro co jsi šel do kuchyně."
   ],
   artifact: [
-    "Tvé tělo se stává nástrojem. Brzy zjistíš, že máš schopnost otevírat pivo pouhým pohledem.",
+    "Tvé tělo se stává nástrojem. Brzy zjistíš, že máš schopnost otevírat Braník pouhým pohledem.",
     "Vesmírná energie proudí tvými žilami. Dnes tě kopne statická elektřina víc než obvykle.",
     "Kov a maso se spojují. Tvůj telefon se dnes nevybije, ale ty ztratíš pojem o čase."
   ],
   default: [
     "Hvězdy mlčí. Tvá budoucnost je nejistá, ale karta tě bude chránit.",
-    "Vesmírní lidé mají výpadek signálu. Zkus to znovu zítra.",
-    "Aštar Šeran tě zablokoval na Facebooku. Osud je krutý."
+    "Vesmírní lidé mají výpadek signálu. Zkus to znovu zítra."
   ]
 };
 
