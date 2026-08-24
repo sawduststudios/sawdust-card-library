@@ -2666,7 +2666,7 @@
     {
       "id": "123",
       "name": "ANOnika",
-      "rarity": "rare",
+      "rarity": "common",
       "class": "sawdust-fan",
       "powerLevel": 0,
       "stats": {
@@ -3964,7 +3964,7 @@
     {
       "id": "182",
       "name": "NENEdithka",
-      "rarity": "legendary",
+      "rarity": "common",
       "class": "sawdust-fan",
       "powerLevel": 0,
       "stats": {
