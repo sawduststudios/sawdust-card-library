@@ -136,7 +136,8 @@ export default function Landing() {
           ~ Vojta's Slayride ~
         </div>
 
-        <div style={{
+        {/* Desktop playable iframe */}
+        <div className="arcade-desktop-only" style={{
           position: 'relative',
           width: '100%',
           maxWidth: '640px',
@@ -167,9 +168,27 @@ export default function Landing() {
           </iframe>
         </div>
 
+        {/* Mobile notice (PC-only game) */}
+        <div className="arcade-mobile-notice" style={{
+          display: 'none',
+          padding: '1.5rem 1rem',
+          backgroundColor: '#330000',
+          border: '3px dashed #FFFF00',
+          margin: '0 auto',
+          maxWidth: '640px'
+        }}>
+          <div style={{ fontSize: '1.2rem', color: '#FFFF00', fontWeight: 'bold', marginBottom: '0.5rem' }}>
+            🖥️ ARKÁDA JE POUZE PRO PC!
+          </div>
+          <p style={{ margin: 0, color: '#FFFFCC', fontSize: '0.95rem', lineHeight: '1.4' }}>
+            Hra vyžaduje fyzickou klávesnici se šipkami a na mobilních telefonech ji nelze hrát. 
+            Navštivte naši svatyni na stolním počítači a vymýťte heretiky!
+          </p>
+        </div>
+
         <div style={{ marginTop: '1rem', fontSize: '0.95rem', color: '#FFFFCC' }}>
           <p style={{ margin: '0.4rem 0', fontWeight: 'bold' }}>
-            🕹️ <span style={{ color: '#FFFF00' }}>Ovládání:</span> Klávesnice / Šipky • Likviduj heretiky na kolejích!
+            🕹️ <span style={{ color: '#FFFF00' }}>Ovládání:</span> Klávesnice / Šipky • <span style={{ color: '#FF8888' }}>Pouze pro PC (není pro mobily)</span>
           </p>
           <a 
             href="https://trebkiller.itch.io/rails-n-retics" 
@@ -187,7 +206,7 @@ export default function Landing() {
               fontSize: '1rem'
             }}
           >
-            🚀 Spustit celou obrazovku na itch.io (doporučeno pro mobil) ↗
+            ↗ Otevřít stránku hry na itch.io (PC)
           </a>
         </div>
       </div>

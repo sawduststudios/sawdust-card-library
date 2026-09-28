@@ -43,3 +43,18 @@ h1, h2, h3 {
   border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
 }
 
+@media (max-width: 768px) {
+  .arcade-desktop-only {
+    display: none !important;
+  }
+  .arcade-mobile-notice {
+    display: block !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .arcade-mobile-notice {
+    display: none !important;
+  }
+}
+
