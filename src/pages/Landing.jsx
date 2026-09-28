@@ -111,6 +111,87 @@ export default function Landing() {
         </div>
       </div>
 
+      {/* Itch.io Game Arcade Section */}
+      <div style={{ 
+        padding: '1.5rem 1rem', 
+        backgroundColor: '#000000', 
+        border: '8px ridge #FF0000', 
+        boxShadow: '0 0 25px rgba(255, 0, 0, 0.7), inset 0 0 15px #FFFF00',
+        maxWidth: '720px',
+        margin: '4rem auto 0 auto',
+        boxSizing: 'border-box'
+      }}>
+        <div className="blink" style={{ color: '#FFFF00', fontSize: '1rem', fontWeight: 'bold', letterSpacing: '2px', marginBottom: '0.3rem' }}>
+          ★ ARKÁDOVÝ SIMULÁTOR ŘÁDU ★
+        </div>
+        <h2 style={{ 
+          fontSize: 'clamp(1.5rem, 5vw, 2.2rem)', 
+          color: '#00FF00', 
+          textShadow: '3px 3px 0 #FF0000', 
+          margin: '0 0 0.5rem 0' 
+        }}>
+          🎮 RAILS 'N 'RETICS
+        </h2>
+        <div style={{ color: '#00FFFF', fontSize: '1.1rem', fontWeight: 'bold', marginBottom: '1.2rem' }}>
+          ~ Vojta's Slayride ~
+        </div>
+
+        <div style={{
+          position: 'relative',
+          width: '100%',
+          maxWidth: '640px',
+          margin: '0 auto',
+          aspectRatio: '640 / 380',
+          border: '4px solid #FFFF00',
+          backgroundColor: '#a60000',
+          boxShadow: 'inset 0 0 10px #000000',
+          overflow: 'hidden'
+        }}>
+          <iframe 
+            src="https://itch.io/embed-upload/6713865?color=a60000" 
+            allowFullScreen
+            style={{ 
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              width: '100%', 
+              height: '100%', 
+              border: 'none',
+              display: 'block'
+            }} 
+            title="Rails 'n 'Retics - Vojta's Slayride"
+          >
+            <a href="https://trebkiller.itch.io/rails-n-retics" target="_blank" rel="noopener noreferrer">
+              Play Rails 'n 'Retics - Vojta's Slayride on itch.io
+            </a>
+          </iframe>
+        </div>
+
+        <div style={{ marginTop: '1rem', fontSize: '0.95rem', color: '#FFFFCC' }}>
+          <p style={{ margin: '0.4rem 0', fontWeight: 'bold' }}>
+            🕹️ <span style={{ color: '#FFFF00' }}>Ovládání:</span> Klávesnice / Šipky • Likviduj heretiky na kolejích!
+          </p>
+          <a 
+            href="https://trebkiller.itch.io/rails-n-retics" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            style={{ 
+              display: 'inline-block',
+              marginTop: '0.5rem',
+              color: '#00FFFF', 
+              backgroundColor: '#330000',
+              padding: '6px 14px',
+              border: '2px dashed #00FF00',
+              textDecoration: 'none',
+              fontWeight: 'bold',
+              fontSize: '1rem'
+            }}
+          >
+            🚀 Spustit celou obrazovku na itch.io (doporučeno pro mobil) ↗
+          </a>
+        </div>
+      </div>
+
       <div style={{ marginTop: '4rem', borderTop: '4px double #FF0000', paddingTop: '1rem', color: '#008000', fontWeight: 'bold' }}>
         <p>Tento web neobsahuje žádné sledovací prvky ještěrů z pekel.</p>
         <p>Doporučujeme rozlišení 800x600.</p>
